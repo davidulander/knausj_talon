@@ -3,7 +3,7 @@ from typing import Set
 from talon import Module, Context, actions
 import sys
 
-default_alphabet = "air bat cap drum each fine gust harp sit jury crunch look made near odd pit quench red sun trap urge vest whale plex yank zip".split(
+default_alphabet = "arm bat cap drum each fail gust harp ice jury crunch look made near oi pee queue red sun trap urge vest whale plex yank zoe".split(
     " "
 )
 letters_string = "abcdefghijklmnopqrstuvwxyz"
@@ -118,6 +118,7 @@ ctx.lists["self.symbol_key"] = {
     "equals": "=",
     "plus": "+",
     "question mark": "?",
+    "question": "?",
     "tilde": "~",
     "bang": "!",
     "exclamation point": "!",
