@@ -71,3 +71,17 @@ action(browser.submit_form):
 
 action(browser.toggle_dev_tools):
 	key(cmd-alt-i)
+
+# DU editions 
+inspect: key(cmd-shift-c)
+device: key(cmd-shift-m)
+console: key(cmd-alt-j)
+link:
+	key(esc)
+	key(esc)
+	key(f)
+link it: 
+    key(esc)
+    key(esc)
+    key(esc)
+    key(shift-f)
