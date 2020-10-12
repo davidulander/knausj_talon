@@ -97,6 +97,7 @@ alphabet = dict(zip(default_alphabet, letters_string))
 ctx.lists["self.letter"] = alphabet
 ctx.lists["self.symbol_key"] = {
     "back tick": "`",
+    "tick": "´",
     "`": "`",
     "comma": ",",
     ",": ",",
