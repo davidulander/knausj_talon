@@ -1,0 +1,84 @@
+DONE:
+- alphabet
+- basic keys
+- repeater
+- debug?
+- Mouse advanced (scroll)
+- Applications
+    - finder
+
+
+BEGUN:
+- Custom
+- standard
+- window management
+- Applications
+    - vscode (make it work)
+    - Chrome (website (trello)
+
+LEFT:
+- Applications
+    - Outlook
+    - slack
+    - iterm
+    - gmail
+    - authy
+
+- Formatters
+    - pascal?
+- Emojis
+
+- Code / language - specific
+    - git
+    - javascript
+    - html
+    - css
+
+HOW TO:
+How to use abbrivate?
+history?
+
+
+
+Standard:
+    select word: Key(alt-right alt-shift-left),
+    # various
+    (close | quit) application: Key(cmd-q),
+    cancel : Key(ctrl-c),
+    tab window: Key(alt-tab),
+    windows: Key(cmd-shift-ctrl-alt-v),
+    new app: Key(cmd-space),
+    next window: Key(cmd-tab),
+    app windows: show_app_windows,
+    new window: Key(cmd-shift-n),
+    break pulse: Key(cmd-ctrl-alt-0),
+    break activate: Key(cmd-ctrl-alt-9),
+    copy active bundle: copy_bundle,
+
+    # computer
+    increase brightness: [Key(brightness_up)] * 2,
+    decrease brightness: [Key(brightness_down)] * 2,
+    (increase | volume) (volume | increase): [Key(volume_up)] * 2,
+    volume up: [Key(volume_up)] * 2,
+    (decrease | volume) (volume | decrease): [Key(volume_down)] * 2,
+    volume down: [Key(volume_down)] * 2,
+    mute sound: Key(mute),    
+    go interface: go_topbar,    
+    zoom in: Key(cmd-+),
+    zoom out: Key(cmd--),
+    take screenshot: Key(cmd-shift-3),
+    take screenshot part: Key(cmd-shift-4),
+
+VSCODE
+    explorer: go_to_explorer
+    editor: focus_editor
+    editor right: focus_editor_right
+    editor left: focus_editor_left
+    split editor [right]: split_editor_right
+    split editor left: split_editor_left
+    git emoji: command_tool(emoji)
+    terminal: focus_on_terminal
+    ex fold: explorer_fold
+    reopen tab: Key(shift-cmd-t)
+    (new tab | nippy): Key(cmd-n)
+    source control: go_to_source_control
