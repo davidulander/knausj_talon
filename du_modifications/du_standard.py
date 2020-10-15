@@ -61,6 +61,11 @@ class Actions:
     def move_mouse_absolute(xPos: int, yPos: int):
         """Moves mouse to absolute position"""
         ctrl.mouse_move(xPos, yPos)
+    
+    def click_mouse_absolute(xPos: int, yPos: int):
+        """Moves mouse to absolute position and click"""
+        ctrl.mouse_move(xPos, yPos)
+        ctrl.mouse_click()
 
     def move_screen(direction: int):
         """Moves a window between screens"""
@@ -107,7 +112,7 @@ class Actions:
             actions.key(key)
             time.sleep(delay)
 
-    def jump_tab(number: float):
+    def jump_vscode_tab(number: int):
         """Jumps to a specific tab"""
-        command = "cmd-" + str(number)
+        command = "ctrl-" + str(number)
         actions.key(command)

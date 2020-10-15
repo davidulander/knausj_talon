@@ -18,26 +18,15 @@ make bold: key(cmd-b)
 make italics: key(cmd-i)
 make underline: key(cmd-u)
 delete line: key('cmd-backspace')
+select word: key(alt-right alt-shift-left)
 
 # Mouse
-hip: 
-    user.mouse_move_center_active_window()
-    user.mouse_smooth_scroll(600)
-hippy: 
-    user.mouse_move_center_active_window()
-    user.mouse_smooth_scroll(300)
-skip: 
-    user.mouse_move_center_active_window()
-    user.mouse_smooth_scroll(-600)
-skippy: 
-    user.mouse_move_center_active_window()
-    user.mouse_smooth_scroll(-300)
-skip right: 
-    user.mouse_move_center_active_window()
-    mouse_scroll(0, -300)
-skip left:
-    user.mouse_move_center_active_window()
-    mouse_scroll(0, 300)
+hip: user.mouse_smooth_scroll(600)
+hippy: user.mouse_smooth_scroll(300)
+skip: user.mouse_smooth_scroll(-600)
+skippy: user.mouse_smooth_scroll(-300)
+skip right: mouse_scroll(0, -300)
+skip left:mouse_scroll(0, 300)
 mouse up <number>: user.move_mouse_relative('up', number)
 mouse right <number>: user.move_mouse_relative('right', number)
 mouse down <number>: user.move_mouse_relative('down', number)
@@ -53,14 +42,17 @@ go applications: key(cmd-shift-a)
 go projects: user.file_manager_open_directory('~/Projects')
 
 # various
+new app: key(cmd-space)
 (close | quit) application: key(cmd-q)
-tab window: key(alt-tab)
+next window: key(cmd-tab)
 windows: key(f6)
-worm: 'python'
 lock (computer | screen): 
     speech.disable()
     key(ctrl-cmd-q)
-
+break pulse: key(cmd-ctrl-alt-0)
+break activate: key(cmd-ctrl-alt-9)
+take screenshot: key(cmd-shift-4)
+go interface: user.click_mouse_absolute(1500, 0)
 
 
 #custom
