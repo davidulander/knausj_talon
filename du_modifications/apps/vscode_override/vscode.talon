@@ -80,6 +80,7 @@ kill terminal: key(ctrl-k)
 new terminal: key(ctrl-7)
 next terminal: key(ctrl-9)
 last terminal: key(ctrl-8)
+cancel : key(ctrl-c)
 
 # tabbing
 # defined in tabs.talon
