@@ -5,7 +5,7 @@ welcome back:
     user.mouse_wake()
     user.history_enable()
     speech.enable()
-sleep all:
+snor:
     user.switcher_hide_running()
     user.history_disable()
     user.homophones_hide()
@@ -13,7 +13,6 @@ sleep all:
     user.mouse_sleep()
     speech.disable()
     user.engine_sleep()
-snor: speech.disable()
 activate: speech.enable()
 dragon mode: speech.disable()
 talon mode: speech.enable()
