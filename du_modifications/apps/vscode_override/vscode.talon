@@ -6,6 +6,7 @@ tag(): user.multiple_cursors
 tag(): user.snippets
 tag(): user.splits
 tag(): user.tabs
+tag(): terminal
 
 # Navigating text
 line <number>:

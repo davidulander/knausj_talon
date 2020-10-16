@@ -14,10 +14,12 @@ DONE:
     - vscode
     - Chrome
     - gmail
+    
+- code
+    - git
 
 
 BEGUN:
-- Applications
 
 LEFT:
 - Applications
@@ -29,15 +31,12 @@ LEFT:
 - Emojis
 
 - Code / language - specific
-    - git
     - javascript
     - html
     - css
 
 HOW TO:
 How to use abbrivate?
-history?
-
 
 VSCODE
     editor right: focus_editor_right
