@@ -14,8 +14,8 @@ git checkout master: "git checkout master\n"
 git checkout <user.text>: "git checkout {text}"
 git cherry pick: "git cherry-pick "
 git clone: "git clone "
-git commit <user.text>: 
-    "git commit -m '{text}'"
+git commit: 
+    "git commit -m ''"
     key(left)
 git commit no veryfy:
         "git commit -m '' -n"
@@ -23,7 +23,7 @@ git commit no veryfy:
         key(left)
         key(left)
         key(left)
-git commit amend <user.text>: "git commit --amend"
+git commit amend: "git commit --amend"
 git diff (colour|color) words: "git diff --color-words "
 git diff: "git diff "
 git diff cached: "git diff --cached\n"
