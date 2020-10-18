@@ -54,6 +54,24 @@ mapping_vocabulary = {
     # For example:
     # "enn map": "nmap",
     # "under documented": "under-documented",
+    "re-factoring": "refactoring",
+    "prod": "prod",
+    "cognito": "cognito",
+    "docker": "docker",
+    "array": "array",
+    "dev": "dev",
+    "error": "error",
+    "git": "git",
+    "files": "files",
+    "jest": "jest",
+    "jest": "jest",
+    "wrapper": "wrapper",
+    "netlight ui I": "netlight-ui",
+    "netlight": "Netlight",
+    "mock": "mock",
+    "commit": "commit",
+    "size": "size",
+    "pause": "pause",
 }
 mapping_vocabulary.update(dict(zip(simple_vocabulary, simple_vocabulary)))
 
