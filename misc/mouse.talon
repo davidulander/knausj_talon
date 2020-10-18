@@ -7,7 +7,7 @@ touch:
 	# close the mouse grid if open
 	user.grid_close()
 
-# DU editions 
+# DU edition 
 right click: 
 	mouse_click(1)
 	# close the mouse grid if open
@@ -32,7 +32,7 @@ midclick:
 	# close the mouse grid
 	user.grid_close()
 
-# DU editions
+# DU edition
 <user.modifiers> right click: 
 	key("{modifiers}:down")
 	mouse_click(1)

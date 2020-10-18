@@ -1,4 +1,4 @@
-# DU editions
+# DU edition
 (jay son | jason ): "json" 
 #(http | htp): "http"
 #tls: "tls"
@@ -26,13 +26,13 @@ wipe: key(backspace)
 (pad | padding): 
 	insert("  ") 
 	key(left)
-# DU editions
+# DU edition
 slap: 
 	key(enter)
 
 
 
-# DU editions
+# DU edition
 slappy:
     edit.line_end()
 	key(enter)

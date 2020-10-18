@@ -72,7 +72,7 @@ action(browser.submit_form):
 action(browser.toggle_dev_tools):
 	key(cmd-alt-i)
 
-# DU editions 
+# DU edition 
 inspect: key(cmd-shift-c)
 device: key(cmd-shift-m)
 console: key(cmd-alt-j)

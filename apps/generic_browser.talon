@@ -63,7 +63,7 @@ dev tools: browser.toggle_dev_tools()
 # search tabs: key(T)
 # move to window: key(W)
 
-# DU editions 
+# DU edition 
 website <user.text>: user.go_to_website(text)
 
 # Gmail:

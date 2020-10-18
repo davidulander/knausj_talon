@@ -1,5 +1,5 @@
 #custom vscode commands go here
-# DU editions
+# DU edition
 app: DISABLED_vscode
 -
 tag(): user.find_and_replace

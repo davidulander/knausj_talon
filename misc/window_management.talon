@@ -18,7 +18,7 @@ snap <user.running_applications> [screen] <number>:
     user.move_app_to_screen(running_applications, number)
 
 
-# DU editions
+# DU edition
 maximize: user.move_window(0.0,0.0,1.0,1.0)
 split window left: user.move_window(0.0,0.0,0.5,1.0)
 split window right: user.move_window(0.5,0.0,0.5,1.0)

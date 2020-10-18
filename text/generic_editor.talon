@@ -182,6 +182,6 @@ cut word right:
     edit.extend_word_right()
     edit.cut()
 
-# DU editions
+# DU edition
 snap: key(cmd-shift-k)
 (snipper | clear line): key(cmd-right home cmd-shift-right delete)
