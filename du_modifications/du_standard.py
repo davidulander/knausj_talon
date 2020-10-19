@@ -1,6 +1,7 @@
 import time
-from talon import Module, ctrl, actions, ui
+from talon import Module, ctrl, actions, ui, Context
 
+ctx = Context()
 mod = Module()
 
 websites = {
@@ -111,8 +112,3 @@ class Actions:
         for key in keysToBePressed:
             actions.key(key)
             time.sleep(delay)
-
-    def jump_vscode_tab(number: int):
-        """Jumps to a specific tab"""
-        command = "ctrl-" + str(number)
-        actions.key(command)

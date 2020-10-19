@@ -5,8 +5,9 @@ tab last: app.tab_previous()
 tab next: app.tab_next()
 tab close: app.tab_close()
 tab reopen: app.tab_reopen()
-go tab <number>: user.tab_jump(number)
-go tab final: user.tab_final()
+# DU edition
+jump <number>: user.tab_jump(number)
+jump final: user.tab_final()
 
 
 # DU editiions
@@ -15,4 +16,3 @@ crack: app.tab_close()
 reopen tab: key(cmd-shift-t)
 steppy: app.tab_next()
 steffy: app.tab_previous() 
-jump <number>: user.jump_vscode_tab(number)
