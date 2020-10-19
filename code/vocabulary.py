@@ -61,7 +61,6 @@ mapping_vocabulary = {
     "array": "array",
     "dev": "dev",
     "error": "error",
-    "git": "git",
     "files": "files",
     "jest": "jest",
     "jest": "jest",
@@ -72,6 +71,7 @@ mapping_vocabulary = {
     "commit": "commit",
     "size": "size",
     "pause": "pause",
+    "await": "await",
 }
 mapping_vocabulary.update(dict(zip(simple_vocabulary, simple_vocabulary)))
 

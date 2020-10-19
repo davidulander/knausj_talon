@@ -8,6 +8,7 @@ DONE:
 - Custom
 - standard
 - Formatters
+- playground accounts
     - pascal?
 - Applications
     - finder
@@ -20,12 +21,12 @@ DONE:
 
 
 BEGUN:
+    - iterm
 
 LEFT:
 - Applications
     - Outlook
     - slack
-    - iterm
     - authy
 
 - Emojis
@@ -44,4 +45,3 @@ VSCODE
     split editor [right]: split_editor_right
     split editor left: split_editor_left
     ex fold: explorer_fold
-

@@ -80,3 +80,17 @@ unread: key(shift-u)
 read: key(shift-i)
 write message: key(c)
 send message: key(cmd-enter)
+
+# strings to paste:
+localhost: "https://localhost:3000"
+playground christian: 
+    "chul@playground.netlight.com"
+    key(tab)
+    "Hejsan123"
+    key(enter)
+playground matti: 
+    "matl@playground.netlight.com"
+    key(tab)
+    "Hejsan123" 
+    key(enter)
+playground password: "Hejsan123"

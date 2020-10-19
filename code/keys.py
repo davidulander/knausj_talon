@@ -146,7 +146,7 @@ ctx.lists["self.symbol_key"] = {
     "greater than": ">",
     "star": "*",
     "asterisk": "*",
-    "pound": "#",
+    # "pound": "#",
     "hash": "#",
     "hash sign": "#",
     "number sign": "#",

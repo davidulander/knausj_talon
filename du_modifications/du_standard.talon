@@ -66,6 +66,7 @@ paste work e-mail full: 'david.ulander@netlight.com'
 no value: 'undefined'
 
 # custom words
+word git: 'git'
 word null: 'null'
 word bug: 'bug'
 word refactor: 'refactor'
