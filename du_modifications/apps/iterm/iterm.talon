@@ -1,7 +1,7 @@
 app: iterm2
 -
 tag(): user.tabs
-tag(): terminal
+tag(): user.terminal
 
 # iterm functionality
 [toggle] full-screen: key(cmd-shift-enter)
@@ -17,7 +17,6 @@ make (durr | dear) <user.text>: 'mkdir {text}'
 exit: 
     key(ctrl-c)
     'exit'
-cancel: key(ctrl-c)
 clear: 
     key(ctrl-c)
     'clear'
@@ -28,5 +27,4 @@ list:
 list more: 
     'ls -a'
     key(enter)
-search: key(ctrl-r)
 slap: key(enter)

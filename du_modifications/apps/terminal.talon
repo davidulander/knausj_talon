@@ -1,5 +1,9 @@
-tag: terminal
+tag: user.terminal
 -
+
+cancel : key(ctrl-c)
+rerun:
+    key(ctrl-r)
 # npm
 npm run: 'npm run '
 npm install: 'npm install '
