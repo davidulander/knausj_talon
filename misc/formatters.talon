@@ -8,7 +8,7 @@
 <user.format_text>+$: user.insert_many(format_text_list)
 <user.format_text>+ over: user.insert_many(format_text_list)
 <user.formatters> that: user.formatters_reformat_selection(user.formatters)
-word <user.word>: insert(user.word)
+# word <user.word>: insert(user.word)
 format help: user.formatters_help_toggle()
 format recent: user.formatters_recent_toggle()
 format repeat <number>: 
@@ -22,7 +22,7 @@ format copy <number>:
   user.formatters_clear_last()
   insert(user.formatters_reformat_last(user.formatters))
   
-# DU editions
+# DU edition
 more <user.text>$:
   result = user.formatted_text(text, "NOOP")
   insert(' ' + result)
