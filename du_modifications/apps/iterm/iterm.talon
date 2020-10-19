@@ -1,6 +1,7 @@
 app: iterm2
 -
 tag(): user.tabs
+tag(): terminal
 tag(): user.terminal
 
 # iterm functionality
