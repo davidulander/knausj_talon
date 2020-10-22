@@ -121,6 +121,3 @@ fold: key(cmd-k cmd-l)
 (merge | join) editors: user.vscode('Join All Editor Group')
 reload window: user.vscode('Reload window')
 new window: user.vscode("workbench.action.newWindow")
-
-
-

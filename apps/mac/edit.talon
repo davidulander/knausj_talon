@@ -83,10 +83,10 @@ action(edit.extend_word_right):
 	key(shift-alt-right)
 
 action(edit.file_end):
-	key(cmd-down cmd-left)
+	key(cmd-down)
 
 action(edit.file_start):
-	key(cmd-up cmd-left)
+	key(cmd-up)
 
 action(edit.find):
 	key(cmd-f)

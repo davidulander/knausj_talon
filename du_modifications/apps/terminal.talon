@@ -1,9 +1,24 @@
 tag: user.terminal
 -
 
+# # General commands
+exit: 
+    key(ctrl-c)
+    'exit'
+clear: 
+    key(ctrl-c)
+    'clear'
+    key(enter)
+list: 
+    'ls'
+    key(enter)
+list more: 
+    'ls -a'
+    key(enter)
 cancel : key(ctrl-c)
 rerun:
     key(ctrl-r)
+
 # npm
 npm run: 'npm run '
 npm install: 'npm install '
@@ -25,6 +40,7 @@ run code: 'code .\n'
 # Internal-it
 intern pull all: 'cd /Users/daul/Projects/intern-it/; git-pull-all\n'
 run level: 'itermocil run-laf-be\n'
+run update netlight: 'npm run update-ui-to-latest\n'
 
 run sales: 'itermocil run-sales-be\n'
 run mock: 'npm run start:mockedBackend \n'
