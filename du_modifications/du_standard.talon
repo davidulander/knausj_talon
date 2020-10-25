@@ -34,6 +34,10 @@ mouse left <number>: user.move_mouse_relative('left', number)
 dismiss guidance: user.click_mouse_absolute(1660, 30)
 dismiss reminder: user.click_mouse_absolute(1850, 1059)
 
+# navigation
+home: edit.line_start()
+end: edit.line_end()
+
 # finder shortcuts
 go computer: key(cmd-shift-c)
 go desktop: key(cmd-shift-d)

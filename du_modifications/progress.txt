@@ -20,8 +20,8 @@ DONE:
 - code
     - git
 
+- home/end in browser
 
-BEGUN:
 
 LEFT:
 - Applications
@@ -39,7 +39,6 @@ LEFT:
 HOW TO:
 How to use abbrivate?
 
-home/end in browser
 
 VSCODE
     editor right: focus_editor_right
