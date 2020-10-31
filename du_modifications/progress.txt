@@ -16,6 +16,8 @@ DONE:
     - Chrome
     - gmail
     - iterm
+    - slack
+    - authy
     
 - code
     - git
@@ -27,8 +29,6 @@ DONE:
 LEFT:
 - Applications
     - Outlook
-    - slack
-    - authy
 
 
 - Code / language - specific
