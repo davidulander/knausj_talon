@@ -9,13 +9,6 @@ tag(): user.tabs
 tag(): terminal
 tag(): user.terminal
 
-# Navigating text
-line <number>:
-    key(esc)    
-    key(cmd-g)
-    '{number}'
-    key(enter)
-
 # Selecting text
 select line <number> until <number>:
     key(cmd-g)
@@ -43,6 +36,9 @@ editor:
 explorer: 
     key(cmd-shift-e)
     user.move_mouse_absolute(200, 500)
+ex fold: 
+    key(ctrl-alt-c)
+    user.move_mouse_absolute(200, 500)
 extensions: key(cmd-shift-x)
 source controll:
     key(ctrl-shift-g)
@@ -51,7 +47,6 @@ source controll:
 open: key(cmd-down)
 open file: key(cmd-p)
 delete file: key(cmd-backspace)
-toggle pane: key(cmd-b)
 steffy: key(ctrl-shift-left)
 steppy: key(ctrl-shift-right)
 crack other: key(alt-cmd-t)
@@ -62,6 +57,15 @@ close other: key(cmd-alt-t)
 manager: key(cmd-shift-m)
 projects: key(alt-cmd-p)
 show references: key(cmd-shift-f12)
+(definition | def): key(f12)
+(references | ref): key(alt-shift-f12)
+
+# Navigating text
+line <number>:
+    key(esc)    
+    key(cmd-g)
+    '{number}'
+    key(enter)
 
 # git
 stage file: key(alt-cmd-u)
@@ -100,15 +104,10 @@ cursor up: key(ctrl-alt-up)
 cast: key(cmd-shift-7)
 block comment: key(alt-shift-a)
 command: key(cmd-shift-p)
-source control: key(ctrl-shift-g)
 (drop-down | drop): key(ctrl-space)
 quickfix: key(cmd-.)
-(definition | def): key(f12)
-(references | ref): key(alt-shift-f12)
-select bracket: key(cmd-alt-shift-ctrl-b)
 keyboard shortcuts: key(cmd-k cmd-s)
 pin tab: key(a cmd-z)
-split editor: key(ctrl-cmd-alt-shift-7)
 execute: key(cmd-enter)
 save all: key(cmd-alt-s)
 
@@ -117,6 +116,17 @@ fold all: key(cmd-k cmd-0)
 unfold all: key(cmd-k cmd-j)
 fold: key(cmd-k cmd-l)
 
+# windows 
+split editor [right]: 
+    key(ctrl-alt-right)
+    user.click_mouse_absolute(1300, 400)
+split editor left: 
+    key(ctrl-alt-left)
+    user.click_mouse_absolute(700, 400)
+focus right: 
+    user.click_mouse_absolute(1300, 400)
+focus left: 
+    user.click_mouse_absolute(700, 400)
 (merge | join) editors: user.vscode('Join All Editor Group')
 reload window: user.vscode('Reload window')
 new window: user.vscode("workbench.action.newWindow")

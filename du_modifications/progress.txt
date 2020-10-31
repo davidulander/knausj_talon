@@ -18,6 +18,7 @@ DONE:
     - iterm
     - slack
     - authy
+    - Outlook
     
 - code
     - git
@@ -27,25 +28,11 @@ DONE:
 
 
 LEFT:
-- Applications
-    - Outlook
-
-
-- Code / language - specific
+- language
     - javascript
     - html
     - css
 
-HOW TO:
 How to use abbrivate?
 
-
-VSCODE
-    editor right: focus_editor_right
-    editor left: focus_editor_left
-    split editor [right]: split_editor_right
-    split editor left: split_editor_left
-    ex fold: explorer_fold
-
-
-Divide my du_standard into several modules we different contexts activated only in certain apps
+.Divide my du_standard into several modules we different contexts activated only in certain apps
