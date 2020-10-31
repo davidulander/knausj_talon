@@ -21,6 +21,7 @@ DONE:
     - git
 
 - home/end in browser
+- Emojis
 
 
 LEFT:
@@ -29,7 +30,6 @@ LEFT:
     - slack
     - authy
 
-- Emojis
 
 - Code / language - specific
     - javascript
@@ -46,3 +46,6 @@ VSCODE
     split editor [right]: split_editor_right
     split editor left: split_editor_left
     ex fold: explorer_fold
+
+
+Divide my du_standard into several modules we different contexts activated only in certain apps

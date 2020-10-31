@@ -3,6 +3,7 @@ app: chrome
 -
 tag(): browser
 tag(): user.tabs
+tag(): user.emojis
 #action(browser.address):
 
 action(browser.bookmark):

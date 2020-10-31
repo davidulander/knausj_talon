@@ -1,12 +1,14 @@
 os: mac
 app: slack
 -
+tag(): user.emojis
+
 # Workspace
 workspace <number>: key("cmd-{number}")
 previous workspace: key(cmd-shift-[)
 next workspace: key(cmd-shift-])
 # Channel
-channel: key(cmd-k)
+channel: key(cmd-k) 
 channel <user.text>:
     key(cmd-k)
     insert(user.formatted_text(user.text, "ALL_LOWERCASE"))
