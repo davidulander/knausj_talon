@@ -130,3 +130,18 @@ focus left:
 (merge | join) editors: user.vscode('Join All Editor Group')
 reload window: user.vscode('Reload window')
 new window: user.vscode("workbench.action.newWindow")
+
+# javascript
+seelog:
+    "console.log()"
+    key(left)
+  
+fat arrow: "=>"
+  
+fat arrow function: "() => {\n"
+
+named function: user.snippet('n')
+named import: user.snippet('id')
+    
+
+    

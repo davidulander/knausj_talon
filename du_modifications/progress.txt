@@ -35,4 +35,4 @@ LEFT:
 
 How to use abbrivate?
 
-.Divide my du_standard into several modules we different contexts activated only in certain apps
+Divide my du_standard into several modules we different contexts activated only in certain apps

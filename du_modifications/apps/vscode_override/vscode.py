@@ -1,5 +1,6 @@
 from talon import Context, actions, ui, Module, app, clip
 from typing import List, Union
+from time import sleep
 
 is_mac = app.platform == "mac"
 
@@ -13,7 +14,6 @@ mod.apps.vscode = "app.name: Code - OSS"
 ctx.matches = r"""
 app: vscode
 """
-
 
 @ctx.action_class("user")
 class user_actions:
@@ -29,3 +29,14 @@ class user_actions:
             actions.key("ctrl-0")
         else: 
             actions.key("alt-0")
+
+@mod.action_class
+class Actions:
+    def snippet(shortcut: str):
+        """Select snippets"""
+        actions.key("cmd-shift-r")
+        sleep(0.1)
+        actions.insert(shortcut) 
+        actions.key("enter")
+
+
