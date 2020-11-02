@@ -30,7 +30,6 @@ DONE:
 LEFT:
 - language
     - javascript
-    - html
     - css
 
 How to use abbrivate?

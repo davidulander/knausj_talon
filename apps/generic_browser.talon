@@ -64,7 +64,7 @@ dev tools: browser.toggle_dev_tools()
 # move to window: key(W)
 
 # DU edition 
-website <user.text>: user.go_to_website(text)
+website {user.website}: user.go_to_website(user.website)
 
 # Gmail:
 archive: key(e)

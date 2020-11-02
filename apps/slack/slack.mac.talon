@@ -67,3 +67,6 @@ mark channel read: key(esc)
 emote <user.text>: "{text}"
 toggle left sidebar: key(cmd-shift-d)
 toggle right sidebar: key(cmd-.)
+
+# DU edition
+edit message: key(cmd-up)

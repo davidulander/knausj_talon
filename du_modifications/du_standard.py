@@ -4,16 +4,16 @@ from talon import Module, ctrl, actions, ui, Context
 ctx = Context()
 mod = Module()
 
-websites = {
-    'facebook': 'https://facebook.com',
+mod.list('website', desc='Opening website')
+ctx.lists['self.website'] = {
+    'Facebook': 'https://facebook.com',
     'trello': 'https://trello.com',
-    'gmail': 'https://gmail.com',
+    'Gmail': 'https://gmail.com',
     'get hub': 'https://github.com',
     'get lab': 'https://gitlab.com',
     'get lab netlight': 'https://git.sto.netlight.se/',
     'talon docs': 'https://github.com/dwighthouse/unofficial-talonvoice-docs',
-    'official docs': 'https://talonvoice.com/docs/index.html',
-    'messenger': 'https://www.messenger.com/',
+    'official docs': 'https://talon.wiki/unofficial_talon_docs/',
     'youtube': 'https://www.youtube.com/',
     'community': 'https://github.com/dwiel/talon_community',
     'localhost': 'https://localhost:3000',
@@ -24,15 +24,15 @@ websites = {
     'confluence': 'https://netlight.atlassian.net/wiki/spaces/SD/pages/11436033/Getting+started',
 
     # git lab
-    'feedback board': 'https://git.sto.netlight.se/sales-tool/sales-client/boards',
-    'feedback board': 'https://git.sto.netlight.se/feedback-tool/feedback-client/boards',
-    'laugh board': 'https://git.sto.netlight.se/groups/laf-tool/-/boards',
-    'merge': 'https://git.sto.netlight.se/feedback-tool/feedback-client/merge_requests',
-    'laugh merge': 'https://git.sto.netlight.se/sales-tool/sales-client/merge_requests',
-    'laugh merge': 'https://git.sto.netlight.se/laf-tool/laf-client/merge_requests',
-    'feedback merge': 'https://git.sto.netlight.se/feedback-tool/feedback-client/merge_requests',
+    'sales': 'https://git.sto.netlight.se/sales/sales-client',
+    'feedback': 'https://git.sto.netlight.se/feedback-tool/feedback-client',
+    'laugh': 'https://git.sto.netlight.se/laf-tool/laf-client',
+    'sales merge': 'https://git.sto.netlight.se/sales/sales-client/-/merge_requests',
+    'laugh merge': 'https://git.sto.netlight.se/laf-tool/laf-client/-/merge_requests',
+    'feedback merge': 'https://git.sto.netlight.se/feedback-tool/feedback-client/-/merge_requests',
+    'netlight-ui': 'https://git.sto.netlight.se/netlight-common/netlight-ui',
+    'netlight-ui merge': 'https://git.sto.netlight.se/netlight-common/netlight-ui/-/merge_requests',
 }
-
 
 @mod.action_class
 class Actions:
@@ -98,12 +98,10 @@ class Actions:
         rect.height *= h
         win.rect = rect
 
-    def go_to_website(name: str):
+    def go_to_website(website: str):
         """Goes to a specific website"""
         actions.browser.focus_address()
-        w = websites.get(name)
-        actions.key("cmd-a")
-        actions.insert(name)
+        actions.insert(website)
         actions.key("enter")
 
     def command_with_delay(keyDescription: str, delay: float):
