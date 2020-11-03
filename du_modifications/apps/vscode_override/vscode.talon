@@ -114,7 +114,7 @@ save all: key(cmd-alt-s)
 # folding
 fold all: key(cmd-k cmd-0)
 unfold all: key(cmd-k cmd-j)
-fold: key(cmd-k cmd-l)
+fold it: key(cmd-k cmd-l)
 
 # windows 
 split editor [right]: 
