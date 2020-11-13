@@ -50,6 +50,10 @@ new app: key(cmd-space)
 (close | quit) application: key(cmd-q)
 next window: key(cmd-tab)
 windows: key(f6)
+windows <user.text>:
+    key(f6)
+    insert(user.formatted_text(user.text, "ALL_LOWERCASE"))
+    key(enter)
 lock (computer | screen): 
     speech.disable()
     key(ctrl-cmd-q)

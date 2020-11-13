@@ -44,6 +44,7 @@ run update netlight: 'npm run update-ui-to-latest\n'
 
 run sales: 'itermocil run-sales-be\n'
 run mock: 'npm run start:mockedBackend \n'
+cd netlight-ui: 'cd src/netlight-ui \n'
 cd intern: 'cd /Users/daul/Projects/intern-it/\n'
 cd sales api: 'cd /Users/daul/Projects/intern-it/sales-api\n'
 cd sales client: 'cd /Users/daul/Projects/intern-it/sales-client\n'
