@@ -15,7 +15,7 @@ snor:
     user.engine_sleep()
 activate: speech.enable()
 dragon mode: speech.disable()
-talon mode: 
+activate talon: 
     speech.enable()
     user.engine_sleep()
 ^dictation mode$:

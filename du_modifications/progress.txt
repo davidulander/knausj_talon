@@ -26,10 +26,10 @@ DONE:
 - home/end in browser
 - Emojis
 
-
-LEFT:
 - language
     - javascript
+
+LEFT:
     - css
 
 How to use abbrivate?
