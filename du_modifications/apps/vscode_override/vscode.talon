@@ -104,6 +104,7 @@ cursor up: key(ctrl-alt-up)
 # various
 cast: key(cmd-shift-7)
 block comment: key(alt-shift-a)
+order imports: key(alt-shift-o)
 command: key(cmd-shift-p)
 (drop-down | drop): key(ctrl-space)
 quickfix: key(cmd-.)

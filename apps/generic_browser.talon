@@ -76,8 +76,8 @@ unmark [all]:
     key(n)
 open: key(o)
 select: key(x)
-unread: key(shift-u)
-read: key(shift-i)
+mark unread: key(shift-u)
+mark read: key(shift-i)
 write message: key(c)
 send message: key(cmd-enter)
 
