@@ -138,6 +138,10 @@ seelog:
     "console.log()"
     key(left)
   
+console error:
+    "console.error()"
+    key(left)
+  
 fat arrow: "=>"
   
 fat arrow function: "() => {\n"

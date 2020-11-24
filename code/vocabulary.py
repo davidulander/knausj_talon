@@ -43,6 +43,8 @@ word_map = {
     # "color": "colour",
     "e-mail": "email",
     "Marc": "mark",
+    "Boolean": "boolean",
+    "eleven": "level",
 }
 word_map.update({x.lower(): x for x in capitalize})
 
