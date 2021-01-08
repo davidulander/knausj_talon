@@ -1,7 +1,7 @@
 tag: browser
 -
 (address bar | go address | go url): browser.focus_address()
-go home: browser.go_home()
+# go home: browser.go_home()
 forward: browser.go_forward()
 [go] back[ward]: browser.go_back()
 
@@ -81,6 +81,9 @@ mark read: key(shift-i)
 write message: key(c)
 send message: key(cmd-enter)
 
+home: edit.line_start()
+end: edit.line_end()
+
 # strings to paste:
 localhost: "https://localhost:3000"
 playground christian: 
@@ -88,9 +91,21 @@ playground christian:
     key(tab)
     "Hejsan123"
     key(enter)
+playground David: 
+    "daul@playground.netlight.com"
+    key(tab)
+    "H8gv6G5fC"
+    key(enter)
 playground account: 
     "matl@playground.netlight.com"
     key(tab)
     "Hejsan123" 
     key(enter)
 playground password: "Hejsan123"
+error filter: "$.level=\"error\"}"
+go top: 
+    key(esc)
+    key(cmd-up)
+go bottom: 
+    key(esc)
+    key(cmd-down)

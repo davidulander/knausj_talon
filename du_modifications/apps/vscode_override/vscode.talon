@@ -32,7 +32,7 @@ copy line: key(end cmd-shift-left cmd-c)
 nippy: key(cmd-n)
 editor: 
     key(cmd-shift-9)
-    user.click_mouse_absolute(900, 400)
+    user.click_mouse_absolute(800, 400)
 explorer: 
     key(cmd-shift-e)
     user.move_mouse_absolute(200, 500)
@@ -43,6 +43,12 @@ extensions: key(cmd-shift-x)
 source controll:
     key(ctrl-shift-g)
     key(tab)
+    key(down)
+focus source controll:
+    key(ctrl-shift-g)
+    key(shift-tab)
+    key(down)
+    key(down)
     key(down)
 open: key(cmd-down)
 open file: key(cmd-p)
@@ -132,19 +138,13 @@ focus left:
 (merge | join) editors: user.vscode('Join All Editor Group')
 reload window: user.vscode('Reload window')
 new window: user.vscode("workbench.action.newWindow")
+previous commit: user.vscode("previous revision")
 
-# javascript
-seelog:
-    "console.log()"
-    key(left)
+log variable: 
+    key(ctrl-alt-l)
+    
+arrow: "=>"
   
-console error:
-    "console.error()"
-    key(left)
-  
-fat arrow: "=>"
-  
-fat arrow function: "() => {\n"
 
 named function: user.snippet('n')
 named import: user.snippet('id')

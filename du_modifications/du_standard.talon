@@ -9,7 +9,7 @@ deselect: key(alt-right alt-shift-left)
 lecksy: edit.extend_line_start()
 ricksy: edit.extend_line_end()
 tabby: key(shift-tab)
-(rick | rip): key(backspace)
+# (rick | rip): key(backspace)
 (backspace | rep | rap): key(alt-backspace)
 slurp: key(alt-delete)
 slurpy: key(delete)
@@ -35,8 +35,8 @@ dismiss guidance: user.click_mouse_absolute(1660, 30)
 dismiss reminder: user.click_mouse_absolute(1850, 1059)
 
 # navigation
-home: edit.line_start()
-end: edit.line_end()
+go home: edit.line_start()
+go end: edit.line_end()
 
 # finder shortcuts
 go computer: key(cmd-shift-c)
@@ -75,9 +75,10 @@ no value: 'undefined'
 
 # custom words
 word string: 'string'
+word true: 'true'
 word sync: 'async'
 word git: 'git'
-word null: 'null'
+word noll: 'null'
 word bug: 'bug'
 word refactor: 'refactor'
 word right: 'right'
@@ -89,3 +90,4 @@ word is: 'is'
 word queue: 'queue'
 word eye: 'eye'
 word shell: 'shell'
+word http: 'HTTP'

@@ -21,7 +21,7 @@ paste [that]: edit.paste()
 undo [that]: edit.undo()
 redo [that]: edit.redo()
 paste match: edit.paste_match_style()
-[file] save: edit.save()
+save file: edit.save()
 wipe: key(backspace)
 (pad | padding): 
 	insert("  ") 

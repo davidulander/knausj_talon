@@ -153,6 +153,13 @@ state reduce:
   insert(".reduce()")
   key(left)
 
+state array find:
+  insert(".find()")
+  key(left)
+ 
+state enum:
+  insert("enum")
+
 state spread: "..."
 
 ^funky <user.text>$: user.code_private_function(text)
@@ -161,4 +168,30 @@ state spread: "..."
 
 state json:
     "JSON.stringify()"
+    key(left)
+
+seelog:
+    "console.log()"
+    key(left)
+  
+console error:
+    "console.error()"
+    key(left)
+
+jest spy:
+    "jest.spyOn()"
+    key(left)
+
+arrow function: "() => {\n"
+implicit function: "() => "
+implicit function argument: 
+    "() => "
+    key(alt-left)
+    key(left)
+    key(left)
+arrow function argument: 
+    "() => {"
+    key(left)
+    key(alt-left)
+    key(left)
     key(left)

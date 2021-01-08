@@ -155,3 +155,29 @@ state spread: "..."
 ^funky <user.text>$: user.code_private_function(text)
 ^pro funky <user.text>$: user.code_protected_function(text)
 ^pub funky <user.text>$: user.code_public_function(text)
+
+seelog:
+    "console.log()"
+    key(left)
+  
+console error:
+    "console.error()"
+    key(left)
+
+jest spy:
+    "jest.spyOn()"
+    key(left)
+
+arrow function: "() => {\n"
+implicit function: "() => "
+implicit function argument: 
+    "() => "
+    key(alt-left)
+    key(left)
+    key(left)
+arrow function argument: 
+    "() => {"
+    key(left)
+    key(alt-left)
+    key(left)
+    key(left)
