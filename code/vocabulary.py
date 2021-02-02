@@ -46,12 +46,13 @@ word_map = {
     "Boolean": "boolean",
     "eleven": "level",
     "Ron": "run",
+    "ID": "id",
 }
 word_map.update({x.lower(): x for x in capitalize})
 
 # Add words (or phrases you want treated as words) here if Talon doesn't
 # recognize them at all.
-simple_vocabulary = ["nmap", "admin", "Cisco", "Citrix", "VPN", "DNS", "minecraft", "authy", "padding", "talon", "params", "end", "bug", "app", "hook", "react", "formatter", "lint"]
+simple_vocabulary = ["admin", "Cisco", "Citrix", "VPN", "DNS", "minecraft", "authy", "padding", "talon", "params", "bug", "app", "hook", "react", "formatter", "lint","button", "cancel", "Stockholm",]
 
 # Add vocabulary words (or phrases you want treated as words) here that aren't
 # recognized by Talon and are written differently than they're pronounced.
@@ -59,6 +60,7 @@ mapping_vocabulary = {
     # For example:
     # "enn map": "nmap",
     # "under documented": "under-documented",
+    "you lender": "ulander",
     "re-factoring": "refactoring",
     "prod": "prod",
     "cognito": "cognito",

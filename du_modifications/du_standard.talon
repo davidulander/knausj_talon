@@ -74,6 +74,8 @@ paste work e-mail full: 'david.ulander@netlight.com'
 no value: 'undefined'
 
 # custom words
+word stream: 'stream'
+word end: 'end'
 word string: 'string'
 word true: 'true'
 word sync: 'async'
