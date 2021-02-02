@@ -170,7 +170,7 @@ state json:
     "JSON.stringify()"
     key(left)
 
-seelog:
+console log:
     "console.log()"
     key(left)
   
@@ -195,3 +195,5 @@ arrow function argument:
     key(alt-left)
     key(left)
     key(left)
+export const: "export const "
+throw new error: "throw new Error('"
