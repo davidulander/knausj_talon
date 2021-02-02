@@ -13,11 +13,10 @@ snor:
     user.mouse_sleep()
     speech.disable()
     user.engine_sleep()
-activate: speech.enable()
-dragon mode: speech.disable()
-activate voice: 
+activate: 
     speech.enable()
     user.engine_sleep()
+dragon mode: speech.disable()
 ^dictation mode$:
     mode.disable("sleep")
     mode.disable("command")
