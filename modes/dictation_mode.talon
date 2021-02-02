@@ -23,19 +23,19 @@ go up <number_small> lines:
 go down <number_small> lines:
     edit.down()
     repeat(number_small - 1)
-go left <number_small> words: 
+go left <number_small>: 
     edit.word_left()
     repeat(number_small - 1)
-go right <number_small> words: 
+go right <number_small>: 
     edit.word_right()
     repeat(number_small - 1)
 go line start: edit.line_start()
 go line end: edit.line_end()
 #selection
-select left <number_small> words:
+select left <number_small>:
     edit.extend_word_left()
     repeat(number_small - 1)
-select right <number_small> words:
+select right <number_small>:
     edit.extend_word_right()
     repeat(number_small - 1)
 select left <number_small> characters:
@@ -47,6 +47,12 @@ select right <number_small> characters:
 clear left <number_small> words:
     edit.extend_word_left()
     repeat(number_small - 1)
+    edit.delete()
+clear left:
+    edit.extend_word_left()
+    edit.delete()
+clear right:
+    edit.extend_word_right()
     edit.delete()
 clear right <number_small> words:
     edit.extend_word_right()
