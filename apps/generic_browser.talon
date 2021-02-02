@@ -97,9 +97,19 @@ playground David:
     "H8gv6G5fC"
     key(enter)
 playground account: 
+    "kiyt@playground.netlight.com"
+    key(tab)
+    "Promaster123" 
+    key(enter)
+playground account viewer: 
     "matl@playground.netlight.com"
     key(tab)
     "Hejsan123" 
+    key(enter)
+playground account limited: 
+    "asgu@playground.netlight.com"
+    key(tab)
+    "Hundratus4ntolv" 
     key(enter)
 playground password: "Hejsan123"
 error filter: "$.level=\"error\"}"
