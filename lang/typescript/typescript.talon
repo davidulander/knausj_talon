@@ -166,6 +166,10 @@ state spread: "..."
 ^pro funky <user.text>$: user.code_protected_function(text)
 ^pub funky <user.text>$: user.code_public_function(text)
 
+json parse:
+    "JSON.parse()"
+    key(left)
+
 state json:
     "JSON.stringify()"
     key(left)
