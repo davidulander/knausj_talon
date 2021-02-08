@@ -188,7 +188,7 @@ symbol_key_words = {
     "greater than": ">",
     "star": "*",
     "pound": "#",
-    # "hash": "#",
+    "hash": "#",
     "percent": "%",
     "caret": "^",
     "amper": "&",
