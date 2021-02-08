@@ -1,4 +1,5 @@
 tag: terminal
+and tag: user.git
 -
 # Standard commands
 git add patch: "git add . -p\n"
@@ -6,7 +7,7 @@ git add: "git add "
 git add everything: "git add -u\n"
 git add all: "git add .\n"
 git bisect: "git bisect "
-git blame: "git alame "
+git blame: "git blame "
 git branch: "git branch "
 git remote branches: "git branch --remote\n"
 git branch <user.text>: "git branch {text}"
