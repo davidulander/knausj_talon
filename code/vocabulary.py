@@ -101,7 +101,7 @@ bind_word_map_to_csv(
 
 
 # Default words that should be added to Talon's vocabulary.
-_simple_vocab_default = ["admin", "VPN", "DNS", "authy", "padding", "talon", "params", "bug", "app", "hook", "react", "formatter", "lint", "button", "cancel", "Stockholm", "props"]
+_simple_vocab_default = ["admin", "VPN", "DNS"]
 
 # Defaults for different pronounciations of words that need to be added to
 # Talon's vocabulary.
