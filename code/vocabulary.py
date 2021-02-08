@@ -82,11 +82,6 @@ _capitalize_defaults = [
 _word_map_defaults = {
     # E.g:
     # "cash": "cache",
-    "Marc": "mark",
-    "Boolean": "boolean",
-    "eleven": "level",
-    "Ron": "run",
-    "ID": "id",
 }
 _word_map_defaults.update({word.lower(): word for word in _capitalize_defaults})
 
@@ -106,28 +101,7 @@ _simple_vocab_default = ["admin", "VPN", "DNS"]
 # Defaults for different pronounciations of words that need to be added to
 # Talon's vocabulary.
 _default_vocabulary = {
-    "under documented": "under-documented",
-    "you lender": "ulander",
-    "re-factoring": "refactoring",
-    "prod": "prod",
-    "cognito": "cognito",
-    "docker": "docker",
-    "array": "array",
-    "dev": "dev",
-    "error": "error",
-    "files": "files",
-    "jest": "jest",
-    "jest": "jest",
-    "wrapper": "wrapper",
-    "netlight ui I": "netlight-ui",
-    "netlight": "Netlight",
-    "mock": "mock",
-    "commit": "commit",
-    "size": "size",
-    "pause": "pause",
-    "await": "await",
-    "merge": "merge",
-    "e-mail": "email",
+    #  "under documented": "under-documented",
 }
 _default_vocabulary.update({word: word for word in _simple_vocab_default})
 

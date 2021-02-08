@@ -1,7 +1,4 @@
 Word(s),Spoken Form (If Different)
-under-documented,under documented
-ulander,you lender
-refactoring,re-factoring
 prod
 cognito
 docker
@@ -11,15 +8,12 @@ error
 files
 jest
 wrapper
-netlight-ui,netlight ui I
-Netlight,netlight
 mock
 commit
 size
 pause
 await
 merge
-email,e-mail
 admin
 VPN
 DNS
@@ -37,3 +31,9 @@ button
 cancel
 Stockholm
 props
+under documented,under-documented
+you lender,ulander
+re-factoring,refactoring
+e-mail,email
+twopointyou
+Netlight
