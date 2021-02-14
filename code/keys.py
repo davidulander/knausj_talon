@@ -3,7 +3,7 @@ from typing import Set
 from talon import Module, Context, actions, app
 import sys
 
-default_alphabet = "arm bat cap drum each fail gust harp ice jury crunch look made near oi pee queue red sun trap urge vest whale plex yank zoe".split(
+default_alphabet = "arm bat cap drum each fail gust hemp ice jury crunch look made near oi pee queue red sun trap urge vest whale plex yank zoe".split(
     " "
 )
 letters_string = "abcdefghijklmnopqrstuvwxyz"
@@ -187,7 +187,7 @@ symbol_key_words = {
     "right angle": ">",
     "greater than": ">",
     "star": "*",
-    "pound": "#",
+    # "pound": "#",
     "hash": "#",
     "percent": "%",
     "caret": "^",
