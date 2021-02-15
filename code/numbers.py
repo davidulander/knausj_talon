@@ -7,14 +7,14 @@ ctx = Context()
 digits = "zero one two three four five six seven eight nine".split()
 teens = "eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split()
 tens = "ten twenty thirty forty fifty sixty seventy eighty ninety".split()
-scales = "hundred thousand million billion trillion quadrillion quintillion sextillion septillion octillion nonillion decillion".split()
+scales = "onehundred thousand million billion trillion quadrillion quintillion sextillion septillion octillion nonillion decillion".split()
 
 digits_map = {n: i for i, n in enumerate(digits)}
 # digits_map["oh"] = 0
 teens_map = {n: i + 11 for i, n in enumerate(teens)}
 tens_map = {n: 10 * (i + 1) for i, n in enumerate(tens)}
 scales_map = {n: 10 ** (3 * (i+1)) for i, n in enumerate(scales[1:])}
-scales_map["hundred"] = 100
+scales_map["onehundred"] = 100
 
 numbers_map = digits_map.copy()
 numbers_map.update(teens_map)
