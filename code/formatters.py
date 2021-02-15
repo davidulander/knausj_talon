@@ -291,6 +291,16 @@ class Actions:
         for string in strings:
             actions.insert(string)
 
+    def capitalize_first_character(word: str) -> str:
+        """Capitalize word"""
+        capitalized_word = word[0].upper() + word[1:]
+        return capitalized_word
+
+    def lower_first_character(word: str) -> str:
+        """Lowercase word"""
+        capitalized_word = word[0].lower() + word[1:]
+        return capitalized_word
+
 
 ctx.lists["self.formatters"] = formatters_words.keys()
 ctx.lists["self.prose_formatter"] = {

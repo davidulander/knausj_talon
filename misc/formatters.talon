@@ -15,6 +15,18 @@ format repeat <number>:
 format copy <number>:
   result = user.formatters_recent_select(number)
   clip.set_text(result)
+format paste <number>:
+  result = user.formatters_recent_select(number)
+  clip.set_text(result)
+  edit.paste()
+paste pascal:
+  text = clip.text()
+  capitalized_text=user.capitalize_first_character(text)
+  insert(capitalized_text)
+paste camel:
+  text = clip.text()
+  text_with_leading_lowercase=user.lower_first_character(text)
+  insert(text_with_leading_lowercase)
 ^nope that$: user.formatters_clear_last()
 ^nope that was <user.formatters>$:
   user.formatters_clear_last()
