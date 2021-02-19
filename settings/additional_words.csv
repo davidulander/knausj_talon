@@ -12,7 +12,6 @@ mock
 commit
 size
 pause
-await
 merge
 admin
 VPN
@@ -22,6 +21,7 @@ padding
 talon
 params
 bug
+debug
 app
 hook
 react
