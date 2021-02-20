@@ -46,6 +46,7 @@ intern pull all: 'cd /Users/daul/Projects/intern-it/; git-pull-all\n'
 run update netlight: 'npm run update-ui-to-latest\n'
 
 run level: 'itermocil run-laf-be\n'
+run level all: 'itermocil run-laf-be-all\n'
 run sales: 'itermocil run-sales-be\n'
 run feedback: 'itermocil run-feedback-be\n'
 run mock: 'npm run start:mockedBackend \n'
