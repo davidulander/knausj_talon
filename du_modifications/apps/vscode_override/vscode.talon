@@ -88,6 +88,7 @@ git emoji: user.vscode('git emoji')
 terminal: 
     key(ctrl-å)
     user.move_mouse_absolute(900, 900)
+max terminal: key(ctrl-+)
 close terminal: key(cmd-shift-9)
 kill terminal: key(ctrl-k)
 new terminal: key(ctrl-7)
@@ -148,6 +149,6 @@ arrow: "=>"
 
 named function: user.snippet('n')
 named import: user.snippet('id')
-    
+copy path: key(cmd-alt-shift-c)    
 
     
