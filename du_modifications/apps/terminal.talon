@@ -31,6 +31,8 @@ run coverage: 'npm run test:coverage\n'
 npm audit fix: 'npm audit fix\n'
 npm upgrade: 'npm upgrade\n'
 npm outdated: 'npm outdated\n'
+nvm use 12: 'nvm use 12.16.1\n'
+nvm use 14: 'nvm use 14.16.0\n'
 
 # terminal
 (dot dot | dotdot): '..'

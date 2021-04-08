@@ -74,6 +74,7 @@ paste work e-mail full: 'david.ulander@netlight.com'
 no value: 'undefined'
 
 # custom words
+word void: 'void'
 word enum: 'enum'
 word wait: 'wait'
 word laugh: 'laf'
@@ -97,4 +98,4 @@ word is: 'is'
 word queue: 'queue'
 word eye: 'eye'
 word shell: 'shell'
-word http: 'HTTP'
+word http: 'http'
