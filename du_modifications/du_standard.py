@@ -21,17 +21,13 @@ ctx.lists['self.website'] = {
     'stack overflow': 'https://stackoverflow.com/',
     'aws': 'https://login.netlight.com/adfs/ls/idpinitiatedsignon.aspx',
     'favreau': 'https://favro.com/organization/6c095c0b6477087f82193369/1a0d90fdb2a44e506f3f9b36',
-    'confluence': 'https://netlight.atlassian.net/wiki/spaces/SD/pages/11436033/Getting+started',
 
-    # git lab
-    'sales': 'https://git.sto.netlight.se/sales/sales-client',
-    'feedback': 'https://git.sto.netlight.se/feedback-tool/feedback-client',
-    'laugh': 'https://git.sto.netlight.se/laf-tool/laf-client',
-    'sales merge': 'https://git.sto.netlight.se/sales/sales-client/-/merge_requests',
-    'laugh merge': 'https://git.sto.netlight.se/laf-tool/laf-client/-/merge_requests',
-    'feedback merge': 'https://git.sto.netlight.se/feedback-tool/feedback-client/-/merge_requests',
-    'netlight-ui': 'https://git.sto.netlight.se/netlight-common/netlight-ui',
-    'netlight-ui merge': 'https://git.sto.netlight.se/netlight-common/netlight-ui/-/merge_requests',
+    # willa
+    'merge app': 'https://github.com/willacompany/app/pulls',
+    'merge mono': 'https://github.com/willacompany/mono/pulls',
+    'merge admin': 'https://github.com/willacompany/admin/pulls',
+    'merge firebase': 'https://github.com/willacompany/firebase/pulls',
+    'jira': 'https://jeffersonpayments.atlassian.net/secure/RapidBoard.jspa?rapidView=7&projectKey=WPD&selectedIssue=WPD-668&sprint=94',
 }
 
 @mod.action_class

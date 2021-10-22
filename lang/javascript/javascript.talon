@@ -153,8 +153,10 @@ state reduce:
 state spread: "..."
 
 ^funky <user.text>$: user.code_private_function(text)
+^as funky <user.text>$: user.code_private_function_async(text)
 ^pro funky <user.text>$: user.code_protected_function(text)
 ^pub funky <user.text>$: user.code_public_function(text)
+^aspub funky <user.text>$: user.code_public_function_async(text)
 
 seelog:
     "console.log()"

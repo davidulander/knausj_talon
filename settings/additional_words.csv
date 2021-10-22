@@ -40,3 +40,7 @@ Netlight
 header
 cdk
 CDK-shared
+github
+bool
+firestore
+GCP

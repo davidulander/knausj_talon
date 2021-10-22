@@ -17,7 +17,8 @@ select line <number> until <number>:
     key(down: number_2 - number_1)
 select: key(cmd-d)
 deselect: key(cmd-alt-shift-d)
-select instances: key(cmd-shift-l)
+select instances: key(cmd-shift-i)
+expand selection: key(cmd-h)
 
 # Finding text
 find all: key(cmd-shift-f)
@@ -106,6 +107,7 @@ line up: key(alt-up)
 line down: key(alt-down)
 cursor down: key(ctrl-alt-down)
 cursor up: key(ctrl-alt-up)
+cursor end: key(alt-shift-i)
 # other defined in generic_editor.talon
 
 # various

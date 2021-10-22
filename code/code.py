@@ -304,6 +304,9 @@ class Actions:
     def code_private_function(text: str):
         """Inserts private function declaration"""
 
+    def code_private_function_async(text: str):
+        """Inserts private function declaration"""
+
     def code_private_static_function(text: str):
         """Inserts private static function"""
 
@@ -314,6 +317,9 @@ class Actions:
         """Inserts public function"""
 
     def code_public_function(text: str):
+        """Inserts public function"""
+
+    def code_public_function_async(text: str):
         """Inserts public function"""
 
     def code_public_static_function(text: str):

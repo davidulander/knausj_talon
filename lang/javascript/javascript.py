@@ -35,6 +35,15 @@ class user_actions:
 
         actions.user.code_insert_function(result, None)
 
+    def code_private_function_async(text: str):
+        """Inserts async private function declaration"""
+        result = "async {}".format(
+            actions.user.formatted_text(
+                text, settings.get("user.code_private_function_formatter")
+            )
+        )
+
+        actions.user.code_insert_function(result, None)
     # def code_private_static_function(text: str):
     #     """Inserts private static function"""
     #     result = "private static void {}".format(
@@ -72,6 +81,14 @@ class user_actions:
 
         actions.user.code_insert_function(result, None)
 
+     def code_public_function_async(text: str):
+        result = "async {}".format(
+            actions.user.formatted_text(
+                text, settings.get("user.code_public_function_formatter")
+            )
+        )
+
+        actions.user.code_insert_function(result, None)
     # def code_public_static_function(text: str):
     #     result = "public static void {}".format(
     #         actions.user.formatted_text(

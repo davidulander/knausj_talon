@@ -22,8 +22,8 @@ rerun:
 # npm
 npm run: 'npm run '
 npm install: 'npm install '
-run test: 'npm run test -- --test_env GOOGLE_APPLICATION_CREDENTIALS="/Users/daul/.config/gcloud/application_default_credentials.json" --test_env GOOGLE_CLOUD_PROJECT="unique-poetry-256610" --test_env LOCAL_POSTGRES="true" \n'
-run test simple: 'npm run test\n'
+
+run test: 'npm run test \n'
 run test watch: 'npm run test:watch\n'
 run build: 'npm run build\n'
 run deploy: 'npm run deploy\n'
@@ -36,6 +36,9 @@ npm upgrade: 'npm upgrade\n'
 npm outdated: 'npm outdated\n'
 nvm use 12: 'nvm use 12.16.1\n'
 nvm use 14: 'nvm use 14.16.0\n'
+run dev: 'npm run dev\n'
+run test mono: 'bazeltest '
+# run test mono: 'npm run test -- --test_env GOOGLE_APPLICATION_CREDENTIALS="/Users/daul/.config/gcloud/application_default_credentials.json" --test_env GOOGLE_CLOUD_PROJECT="unique-poetry-256610" --test_env LOCAL_POSTGRES="true" \n'
 
 # terminal
 (dot dot | dotdot): '..'
