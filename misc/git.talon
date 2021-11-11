@@ -54,6 +54,7 @@ git push <user.text>: "git push {text} "
 git push tags: "git push --tags\n"
 git rebase: "git rebase "
 git rebase master: "git rebase master\n"
+git rebase origin: "git rebase origin/master\n"
 git rebase continue: "git rebase --continue"
 git rebase abort: "git rebase --abort"
 git rebase skip: "git rebase --skip"
@@ -110,3 +111,24 @@ git commit highlighted:
     insert("git add ")
     edit.paste()
     insert("\ngit commit\n")
+
+git feat: 
+    "feat(): "
+    key(left)
+    key(left)
+    key(left)
+git fix: 
+    "fix(): "
+    key(left)
+    key(left)
+    key(left)
+git refactor: 
+    "refactor(): "
+    key(left)
+    key(left)
+    key(left)
+git test: 
+    "test(): "
+    key(left)
+    key(left)
+    key(left)
