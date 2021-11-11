@@ -61,6 +61,15 @@ back: key(ctrl--)
 forward: key(ctrl-shift--)
 find fold: key(ctrl-alt-f)
 find list: key(ctrl-cmd-alt-f)
+find word here: 
+    edit.select_word()
+    key('cmd-f')
+    key('enter')
+find word: 
+    edit.select_word()
+    key('cmd-shift-f')
+    key('enter')
+    key(ctrl-cmd-alt-f)
 close other: key(cmd-alt-t)
 manager: key(cmd-shift-m)
 projects: key(alt-cmd-p)
@@ -124,7 +133,7 @@ save all: key(cmd-alt-s)
 
 # folding
 fold all: key(cmd-k cmd-0)
-unfold all: key(cmd-k cmd-j)
+unfold all: key(cmd-alt-ctrl-i)
 fold it: key(cmd-k cmd-l)
 
 # windows 
@@ -151,6 +160,5 @@ arrow: "=>"
 
 named function: user.snippet('n')
 named import: user.snippet('id')
-copy path: key(cmd-alt-shift-c)    
-
+state this: 'this.'
     

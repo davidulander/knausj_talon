@@ -18,7 +18,7 @@ make bold: key(cmd-b)
 make italics: key(cmd-i)
 make underline: key(cmd-u)
 delete line: key('cmd-backspace')
-select word: key(alt-right alt-shift-left)
+select word: edit.select_word()
 
 # Mouse
 hip: user.mouse_smooth_scroll(600)
