@@ -25,6 +25,7 @@ ctx.lists['self.website'] = {
     # willa
     'merge app': 'https://github.com/willacompany/app/pulls',
     'merge mono': 'https://github.com/willacompany/mono/pulls',
+    'merge web': 'https://github.com/willacompany/web/pulls',
     'merge admin': 'https://github.com/willacompany/admin/pulls',
     'merge firebase': 'https://github.com/willacompany/firebase/pulls',
     'jira': 'https://jeffersonpayments.atlassian.net/secure/RapidBoard.jspa?rapidView=7&projectKey=WPD&selectedIssue=WPD-668&sprint=94',
