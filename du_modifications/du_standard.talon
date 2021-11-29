@@ -67,7 +67,8 @@ go interface: user.click_mouse_absolute(1500, 0)
 # myself
 paste name: 'David Ulander'
 paste e-mail: 'david.ulander@gmail.com'
-paste work e-mail: 'daul@netlight.com'
+paste work e-mail: 'david.ulander@willapay.com'
+paste work e-mail Netlight: 'daul@netlight.com'
 paste work e-mail full: 'david.ulander@netlight.com'
 
 # various

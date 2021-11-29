@@ -13,6 +13,7 @@ git remote branches: "git branch --remote\n"
 git branch <user.text>: "git branch {text}"
 git checkout: "git checkout "
 git checkout master: "git checkout master\n"
+git checkout back: "git checkout -\n"
 git checkout <user.text>: "git checkout {text}"
 git cherry pick: "git cherry-pick "
 git clone: "git clone "
@@ -25,7 +26,7 @@ git commit no veryfy:
         key(left)
         key(left)
         key(left)
-git commit amend: "git commit --amend"
+git commit amend: "git commit --amend --no-edit"
 git diff (colour|color) words: "git diff --color-words "
 git diff: "git diff "
 git diff cached: "git diff --cached\n"
@@ -129,6 +130,12 @@ git refactor:
     key(left)
 git test: 
     "test(): "
+    key(left)
+    key(left)
+    key(left)
+
+git sure: 
+    "chore(): "
     key(left)
     key(left)
     key(left)

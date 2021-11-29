@@ -38,6 +38,7 @@ nvm use 12: 'nvm use 12.16.1\n'
 nvm use 14: 'nvm use 14.16.0\n'
 run dev: 'npm run dev\n'
 run test mono: 'bazeltest '
+run test affected: 'npm run test-only-affected\n'
 # run test mono: 'npm run test -- --test_env GOOGLE_APPLICATION_CREDENTIALS="/Users/daul/.config/gcloud/application_default_credentials.json" --test_env GOOGLE_CLOUD_PROJECT="unique-poetry-256610" --test_env LOCAL_POSTGRES="true" \n'
 
 # terminal

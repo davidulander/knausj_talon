@@ -172,6 +172,16 @@ json parse:
     "JSON.parse()"
     key(left)
 
+state describe:
+    "describe('', () => {})"
+    key(left)
+    repeat(11)
+
+state test:
+    "it('', () => {})"
+    key(left)
+    repeat(11) 
+
 state json:
     "JSON.stringify()"
     key(left)
