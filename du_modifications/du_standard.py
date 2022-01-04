@@ -23,6 +23,9 @@ ctx.lists['self.website'] = {
     'favreau': 'https://favro.com/organization/6c095c0b6477087f82193369/1a0d90fdb2a44e506f3f9b36',
 
     # willa
+    'mailgun': 'https://login.mailgun.com/login',
+    'invoiced': 'https://invoiced.com',
+    'invoiced sandbox': 'https://app.sandbox.invoiced.com',
     'merge app': 'https://github.com/willacompany/app/pulls',
     'merge mono': 'https://github.com/willacompany/mono/pulls',
     'merge web': 'https://github.com/willacompany/web/pulls',

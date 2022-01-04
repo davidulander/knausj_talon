@@ -31,7 +31,7 @@ mouse up <number>: user.move_mouse_relative('up', number)
 mouse right <number>: user.move_mouse_relative('right', number)
 mouse down <number>: user.move_mouse_relative('down', number)
 mouse left <number>: user.move_mouse_relative('left', number)
-dismiss guidance: user.click_mouse_absolute(1660, 30)
+dismiss guidance: user.click_mouse_absolute(1660, 33)
 dismiss reminder: user.click_mouse_absolute(1850, 1059)
 
 # navigation

@@ -58,7 +58,7 @@ steffy: key(ctrl-shift-left)
 steppy: key(ctrl-shift-right)
 crack other: key(alt-cmd-t)
 back: key(ctrl--)
-forward: key(ctrl-shift--)
+forward: key(ctrl-.)
 find fold: key(ctrl-alt-f)
 find list: key(ctrl-cmd-alt-f)
 find word here: 
