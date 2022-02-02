@@ -32,6 +32,7 @@ ctx.lists['self.website'] = {
     'merge admin': 'https://github.com/willacompany/admin/pulls',
     'merge firebase': 'https://github.com/willacompany/firebase/pulls',
     'jira': 'https://jeffersonpayments.atlassian.net/secure/RapidBoard.jspa?rapidView=7&projectKey=WPD&selectedIssue=WPD-668&sprint=94',
+    'gcp': 'https://console.cloud.google.com/logs/query?project=unique-poetry-256610&query=%0A',
 }
 
 @mod.action_class

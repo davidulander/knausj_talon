@@ -83,7 +83,7 @@ git pee are checkout: 'gh pr checkout '
 git pee are list: 'gh pr list \n'
 git pee are create: 'gh pr create'
 git pee are status: 'gh pr status \n'
-Google cloud token: 'gcloud auth print-access-token | pbcopy  \n'
+Google auth token: 'gcloud auth print-access-token | pbcopy  \n'
 
 # twopointyou
 # twopointyou pull all: 'cd /Users/daul/Projects/two-point-you/; git-pull-all\n'
