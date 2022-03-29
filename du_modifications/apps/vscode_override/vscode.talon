@@ -28,6 +28,7 @@ find all: key(cmd-shift-f)
 clone it: key(alt-shift-d)
 cut line: key(end cmd-shift-left cmd-x backspace)
 copy line: key(end cmd-shift-left cmd-c)
+copy word: key(cmd-d cmd-c)
 
 # Navigation
 nippy: key(cmd-n)
@@ -76,6 +77,7 @@ projects: key(alt-cmd-p)
 show references: key(cmd-shift-f12)
 (definition | def): key(f12)
 (references | ref): key(alt-shift-f12)
+log this: key(alt-ctrl-l)
 
 # Navigating text
 line <number>:
@@ -85,6 +87,7 @@ line <number>:
     key(enter)
 
 # git
+git all changes: key(alt-cmd-y)
 stage file: key(alt-cmd-u)
 unstage file: key(ctrl-alt-cmd-u)
 stage all: key(alt-cmd-i)
@@ -101,9 +104,10 @@ terminal:
 max terminal: key(ctrl-+)
 close terminal: key(cmd-shift-9)
 kill terminal: key(ctrl-k)
-new terminal: key(ctrl-7)
+new terminal: key(ctrl-p)
 next terminal: key(ctrl-9)
 last terminal: key(ctrl-8)
+show output: key(alt-å)
 
 # tabbing
 # defined in tabs.talon

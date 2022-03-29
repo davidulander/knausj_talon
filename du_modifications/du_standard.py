@@ -24,6 +24,8 @@ ctx.lists['self.website'] = {
 
     # willa
     'mailgun': 'https://login.mailgun.com/login',
+    'error': 'https://console.cloud.google.com/errors?project=unique-poetry-256610&supportedpurview=project',
+    'logging': 'https://console.cloud.google.com/logs/query;cursorTimestamp=2022-02-10T09:57:50.443288070Z?project=unique-poetry-256610&supportedpurview=project&query=%0A',
     'invoiced': 'https://invoiced.com',
     'invoiced sandbox': 'https://app.sandbox.invoiced.com',
     'merge app': 'https://github.com/willacompany/app/pulls',

@@ -43,6 +43,7 @@ run test affected: 'npm run test-only-affected\n'
 
 # terminal
 (dot dot | dotdot): '..'
+dot quick: '../'
 cd: 'cd '
 cd go up: 'cd ..\n'
 

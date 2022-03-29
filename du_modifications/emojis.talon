@@ -17,8 +17,11 @@ speech balloon: ' :speech_balloon:'
 star emoji: ' :star:'
 boom emoji: ' :boom:'
 merged emoji: ' :merged:'
+raised hand emoji: ' :raised_hands:'
+package emoji: ' :package:'
 reading emoji: ' :reading:'
 tada: ' :tada:'
+rocker emoji: ':rocket:'
 champagne: ' :champagne:'
 upvote: ' :arrow-up:'
 praying hands: ' :pray:'
@@ -31,11 +34,6 @@ amazed:
     ':mindblown1::mindblown2:'
     key(shift-enter)
     ':mindblown3::mindblown4:'
-insert command: 
-    '``'
-    key(left)
-insert command block: 
-    '```'
 clear text:
     key(cmd-a)
     key(backspace)

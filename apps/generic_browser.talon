@@ -118,4 +118,14 @@ go top:
     key(cmd-up)
 go bottom: 
     key(esc)
-    key(cmd-down)
+    key(cmd-down) 
+insert command: 
+    '``'
+    key(left)
+insert code: 
+    key(left)
+    insert("``````")
+    key(left left left)
+    key(shift-enter)
+    key(shift-enter)
+    key(up)
