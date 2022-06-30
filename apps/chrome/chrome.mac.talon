@@ -35,10 +35,10 @@ action(browser.go_blank):
 	key(cmd-n)
 	
 action(browser.go_back):
-	key(cmd-[)
+	key(cmd-left)
 
 action(browser.go_forward):
-	key(cmd-])
+	key(cmd-right)
 	
 action(browser.go_home):
 	key(cmd-shift-h)
