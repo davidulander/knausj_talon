@@ -1,0 +1,142 @@
+tag: terminal
+and tag: user.git
+-
+# Standard commands
+git add patch: "git add . -p\n"
+git add: "git add "
+git add everything: "git add -u\n"
+git add all: "git add .\n"
+git bisect: "git bisect "
+git blame: "git blame "
+git branch: "git branch "
+git remote branches: "git branch --remote\n"
+git branch <user.text>: "git branch {text}"
+git checkout: "git checkout "
+git checkout master: "git checkout master\n"
+git checkout back: "git checkout -\n"
+git checkout <user.text>: "git checkout {text}"
+git cherry pick: "git cherry-pick "
+git clone: "git clone "
+git commit:
+    "git commit -m ''"
+    key(left)
+git commit no veryfy:
+        "git commit -m '' -n"
+        key(left)
+        key(left)
+        key(left)
+        key(left)
+git commit amend: "git commit --amend --no-edit"
+git diff (colour|color) words: "git diff --color-words "
+git diff: "git diff "
+git fetch: "git fetch\n"
+git fetch <user.text>: "git fetch {text}"
+git fetch prune: "git fetch --prune\n"
+git in it: "git init\n"
+git log all: "git log\n"
+git log all changes: "git log -c\n"
+git log: "glog \n"
+git log changes: "git log -c "
+git merge: "git merge "
+git merge <user.text>:"git merge {text}"
+git move: "git mv "
+git new branch: "git checkout -b "
+git pull: "git pull\n"
+git pull origin: "git pull origin "
+git pull rebase: "git pull --rebase\n"
+git pull fast forward: "git pull --ff-only\n"
+git pull <user.text>: "git pull {text} "
+git push: "git push\n"
+git push force: "git push --force-with-lease\n"
+git push origin: "git push origin "
+git push up stream origin: "git push -u origin"
+git push <user.text>: "git push {text} "
+git push tags: "git push --tags\n"
+git rebase: "git rebase "
+git rebase master: "git rebase master\n"
+git rebase origin: "git rebase origin/master\n"
+git rebase quick stash: "git stash; git fetch; git rebase origin/master; git stash apply\n"
+git rebase quick: "git fetch; git rebase origin/master\n"
+git rebase continue: "git rebase --continue"
+git rebase abort: "git rebase --abort"
+git rebase skip: "git rebase --skip"
+git remove: "git rm "
+git (remove|delete) branch: "git branch -d "
+git (remove|delete) remote branch: "git push --delete origin "
+git reset: "git reset "
+git reset soft: "git reset --soft "
+git reset hard: "git reset --hard "
+git reset one commit: "git reset HEAD~1 \n"
+git reset one commit hard: "git reset HEAD~1 --hard \n"
+git restore: "git restore "
+git restore staged: "git restore --staged "
+git remote show origin: "git remote show origin\n"
+git remote add upstream: "git remote add upstream "
+git show: "git show "
+git stash pop: "git stash pop\n"
+git stash: "git stash\n"
+git stash apply: "git stash apply\n"
+git stash list: "git stash list\n"
+git stash show: "git stash show"
+git status: "git status\n"
+git submodule add:  "git submodule add "
+git submodule update: "git submodule update \n"
+git tag: "git tag "
+
+# Convenience
+git edit config: "git config --local -e\n"
+
+git clone clipboard:
+  insert("git clone ")
+  edit.paste()
+  key(enter)
+git diff highlighted:
+    edit.copy()
+    insert("git diff ")
+    edit.paste()
+    key(enter)
+git diff clipboard:
+    insert("git diff ")
+    edit.paste()
+    key(enter)
+git add highlighted:
+    edit.copy()
+    insert("git add ")
+    edit.paste()
+    key(enter)
+git add clipboard:
+    insert("git add ")
+    edit.paste()
+    key(enter)
+git commit highlighted:
+    edit.copy()
+    insert("git add ")
+    edit.paste()
+    insert("\ngit commit\n")
+
+git feat:
+    "feat(): "
+    key(left)
+    key(left)
+    key(left)
+git fix:
+    "fix(): "
+    key(left)
+    key(left)
+    key(left)
+git refactor:
+    "refactor(): "
+    key(left)
+    key(left)
+    key(left)
+git test:
+    "test(): "
+    key(left)
+    key(left)
+    key(left)
+
+git sure:
+    "chore(): "
+    key(left)
+    key(left)
+    key(left)

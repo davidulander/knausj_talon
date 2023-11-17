@@ -1,0 +1,37 @@
+DONE:
+- alphabet
+- basic keys
+- repeater
+- debug?
+- Mouse advanced (scroll)
+- window management
+- Custom
+- standard
+- Formatters
+- playground accounts
+    - pascal?
+- Applications
+    - finder
+    - vscode
+    - Chrome
+    - gmail
+    - iterm
+    - slack
+    - authy
+    - Outlook
+    
+- code
+    - git
+
+- home/end in browser
+- Emojis
+
+- language
+    - javascript
+
+LEFT:
+    - css
+
+How to use abbrivate?
+
+Divide my du_standard into several modules we different contexts activated only in certain apps
