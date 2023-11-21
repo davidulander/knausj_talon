@@ -2,50 +2,53 @@ tag: user.terminal
 -
 
 # # General commands
-exit: 
+exit:
     key(ctrl-c)
     'exit'
-clear: 
+clear:
     key(ctrl-c)
     'clear'
     key(enter)
-list: 
+list:
     'ls'
     key(enter)
-list more: 
+list more:
     'ls -a'
     key(enter)
 cancel : key(ctrl-c)
-rerun:
+rerun command:
     key(ctrl-r)
 
 # npm
-npm run: 'npm run '
-npm install: 'npm install '
-
-run test: 'npm run test \n'
-run test watch: 'npm run test:watch\n'
-run build: 'npm run build\n'
-run deploy: 'npm run deploy\n'
-run start: 'npm run start\n'
-run lint: 'npm run lint\n'
-run prettier: 'npm run prettier\n'
-run coverage: 'npm run test:coverage\n'
-npm audit fix: 'npm audit fix\n'
-npm upgrade: 'npm upgrade\n'
-npm outdated: 'npm outdated\n'
+go services: 'cd /Users/davidulander/Projects/tv4/clpl-services/services \n'
+go packages: 'cd /Users/davidulander/Projects/tv4/clpl-services/packages \n'
+run run: 'pn run '
+run install: 'pn install \n'
+run install lib: 'pn install '
+run test: 'pn test \n'
+run test watch: 'pn test:watch\n'
+run build: 'pn build\n'
+run deploy: 'pn deploy\n'
+run start: 'pn start\n'
+run lint: 'pn lint\n'
+run lint: 'pn typecheck\n'
+run prettier: 'pn prettier\n'
+run coverage: 'pn test:coverage\n'
+npm audit fix: 'pn audit fix\n'
+npm upgrade: 'pn upgrade\n'
+npm outdated: 'pn outdated\n'
 nvm use 12: 'nvm use 12.16.1\n'
 nvm use 14: 'nvm use 14.16.0\n'
-run dev: 'npm run dev\n'
+run dev: 'pn run dev\n'
 run test mono: 'bazeltest '
-run test affected: 'npm run test-only-affected\n'
-# run test mono: 'npm run test -- --test_env GOOGLE_APPLICATION_CREDENTIALS="/Users/daul/.config/gcloud/application_default_credentials.json" --test_env GOOGLE_CLOUD_PROJECT="unique-poetry-256610" --test_env LOCAL_POSTGRES="true" \n'
+run test affected: 'pn run test-only-affected\n'
 
 # terminal
 (dot dot | dotdot): '..'
 dot quick: '../'
 cd: 'cd '
 cd go up: 'cd ..\n'
+cd go back: 'cd -\n'
 
 make (durr | dear): 'mkdir '
 cd talon: 'cd /Users/daul/.talon/user'
