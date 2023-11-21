@@ -1,5 +1,5 @@
-tag: terminal
-and tag: user.git
+# tag: terminal
+tag: user.terminal
 -
 # Standard commands
 git add patch: "git add . -p\n"
