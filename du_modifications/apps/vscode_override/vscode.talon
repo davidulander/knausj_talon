@@ -165,3 +165,5 @@ arrow: "=>"
 named function: user.snippet('n')
 named import: user.snippet('id')
 state this: 'this.'
+
+state proccess: 'process.env.'

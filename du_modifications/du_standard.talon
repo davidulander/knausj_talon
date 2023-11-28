@@ -18,6 +18,7 @@ make bold: key(cmd-b)
 make italics: key(cmd-i)
 make underline: key(cmd-u)
 delete line: key('cmd-backspace')
+snap: key(cmd-shift-k)
 select word: edit.select_word()
 
 # Mouse
@@ -45,8 +46,16 @@ go all files: key(cmd-shift-f)
 go applications: key(cmd-shift-a)
 go projects: user.file_manager_open_directory('~/Projects')
 
-# various
+# Raycasts
 new app: key(cmd-space)
+clipboard: key(alt-o)
+go pull requests: key(alt-p)
+go google: key(alt-c)
+go terraform: key(alt-t)
+go linear: key(alt-l)
+go amazon: key(alt-a)
+
+# various
 (close | quit) application: key(cmd-q)
 next window: key(cmd-tab)
 windows: key(f6)
@@ -61,6 +70,25 @@ break pulse: key(cmd-ctrl-alt-0)
 break activate: key(cmd-ctrl-alt-9)
 take screenshot: key(cmd-shift-4)
 go interface: user.click_mouse_absolute(1500, 0)
+
+save file: edit.save()
+[go word] left:
+    edit.word_left()
+
+[go word] right:
+    edit.word_right()
+
+[go] lefty:
+    edit.left()
+
+[go] righty:
+    edit.right()
+
+[go] up:
+    edit.up()
+
+[go] down:
+    edit.down()
 
 
 #custom

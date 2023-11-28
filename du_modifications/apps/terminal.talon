@@ -22,6 +22,7 @@ rerun command:
 # npm
 go services: 'cd /Users/davidulander/Projects/tv4/clpl-services/services \n'
 go packages: 'cd /Users/davidulander/Projects/tv4/clpl-services/packages \n'
+go root: 'cd /Users/davidulander/Projects/tv4/clpl-services/ \n'
 run run: 'pn run '
 run install: 'pn install \n'
 run install lib: 'pn install '
@@ -31,7 +32,7 @@ run build: 'pn build\n'
 run deploy: 'pn deploy\n'
 run start: 'pn start\n'
 run lint: 'pn lint\n'
-run lint: 'pn typecheck\n'
+run type check: 'pn typecheck\n'
 run prettier: 'pn prettier\n'
 run coverage: 'pn test:coverage\n'
 npm audit fix: 'pn audit fix\n'
@@ -42,6 +43,9 @@ nvm use 14: 'nvm use 14.16.0\n'
 run dev: 'pn run dev\n'
 run test mono: 'bazeltest '
 run test affected: 'pn run test-only-affected\n'
+
+run synth: "/Users/davidulander/Projects/tv4/tv4-infrastructure/bin/terraform-synth.sh projects/"
+run login: "/Users/davidulander/Projects/tv4/tv4-infrastructure/bin/setup-credentials.sh \n"
 
 # terminal
 (dot dot | dotdot): '..'
