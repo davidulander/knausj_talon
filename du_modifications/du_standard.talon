@@ -45,6 +45,7 @@ go desktop: key(cmd-shift-d)
 go all files: key(cmd-shift-f)
 go applications: key(cmd-shift-a)
 go projects: user.file_manager_open_directory('~/Projects')
+go projects: user.file_manager_open_directory('~/Projects')
 
 # Raycasts
 new app: key(cmd-space)
@@ -54,6 +55,7 @@ go google: key(alt-c)
 go terraform: key(alt-t)
 go linear: key(alt-l)
 go amazon: key(alt-a)
+go docs: key(alt-d)
 
 # various
 (close | quit) application: key(cmd-q)
