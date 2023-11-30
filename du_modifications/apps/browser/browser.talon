@@ -1,5 +1,24 @@
 tag: browser
+os: mac
+app: chrome
 -
+tag(): browser
+tag(): user.tabs
+tag(): user.emojis
+
+browser inspect: key(cmd-shift-c)
+browser device: key(cmd-shift-m)
+browser console: key(cmd-alt-j)
+link:
+	key(esc)
+	key(esc)
+	key(f)
+link it:
+    key(esc)
+    key(esc)
+    key(esc)
+    key(shift-f)
+
 address bar | go address | go url: browser.focus_address()
 go page | page focus: browser.focus_page()
 address copy | url copy | copy address | copy url:
