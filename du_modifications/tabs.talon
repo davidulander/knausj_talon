@@ -15,7 +15,7 @@ jump final: user.tab_final()
 
 # DU editiions
 nippy: app.tab_open()
-crack: app.tab_close()
+# crack: app.tab_close()
 reopen tab: key(cmd-shift-t)
 steppy: app.tab_next()
 steffy: app.tab_previous()

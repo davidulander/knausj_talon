@@ -23,7 +23,7 @@ rerun command:
 go services: 'cd /Users/davidulander/Projects/tv4/clpl-services/services \n'
 go packages: 'cd /Users/davidulander/Projects/tv4/clpl-services/packages \n'
 go root: 'cd /Users/davidulander/Projects/tv4/clpl-services/ \n'
-run run: 'pn run '
+run pn: 'pn '
 run install: 'pn install \n'
 run install lib: 'pn install '
 run test: 'pn test \n'
@@ -35,16 +35,16 @@ run lint: 'pn lint\n'
 run type check: 'pn typecheck\n'
 run prettier: 'pn prettier\n'
 run coverage: 'pn test:coverage\n'
-npm audit fix: 'pn audit fix\n'
-npm upgrade: 'pn upgrade\n'
-npm outdated: 'pn outdated\n'
+run audit fix: 'pn audit fix\n'
+run upgrade: 'pn upgrade\n'
+run outdated: 'pn outdated\n'
 nvm use 12: 'nvm use 12.16.1\n'
 nvm use 14: 'nvm use 14.16.0\n'
 run dev: 'pn run dev\n'
 run test mono: 'bazeltest '
 run test affected: 'pn run test-only-affected\n'
 
-run synth: "/Users/davidulander/Projects/tv4/tv4-infrastructure/bin/terraform-synth.sh projects/"
+run tf synth: "/Users/davidulander/Projects/tv4/tv4-infrastructure/bin/terraform-synth.sh projects/"
 run login: "/Users/davidulander/Projects/tv4/tv4-infrastructure/bin/setup-credentials.sh \n"
 
 # terminal
@@ -63,7 +63,7 @@ run code: 'code .\n'
 # Internal-it
 # cd intern: 'cd /Users/daul/Projects/intern-it/ \n'
 # intern pull all: 'cd /Users/daul/Projects/intern-it/; git-pull-all\n'
-# run update netlight: 'npm run update-ui-to-latest\n'
+# run update netlight: 'run run update-ui-to-latest\n'
 # update shared deep: 'cd cdk/shared; git stash; git checkout master; git pull; git stash apply; cd ../../ \n'
 # update shared: 'cd shared; git stash; git checkout master; git pull cd ../../ \n'
 # go cdk: 'cd cdk\n'

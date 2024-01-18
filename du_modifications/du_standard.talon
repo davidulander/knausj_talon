@@ -13,6 +13,7 @@ tabby: key(shift-tab)
 (backspace | rep | rap): key(alt-backspace)
 slurp: key(alt-delete)
 slurpy: key(delete)
+crack: key(cmd-w)
 find here: key(cmd-f)
 make bold: key(cmd-b)
 make italics: key(cmd-i)
@@ -56,16 +57,24 @@ go projects: user.file_manager_open_directory('~/Projects')
 new app: key(cmd-space)
 clipboard: key(alt-o)
 go pull requests: key(alt-p)
+go github: key(alt-g)
 go google: key(alt-c)
 go terraform: key(alt-t)
 go linear: key(alt-l)
 go amazon: key(alt-a)
 go docs: key(alt-d)
 go ai: key(alt-i)
+show keeper: key(alt-shift-k)
+paste password: key(alt-shift-p)
+paste username: key(alt-shift-u)
 
 # various
 (close | quit) application: key(cmd-q)
 next window: key(cmd-tab)
+window maximize: key(alt-cmd-shift-ctrl-i)
+window left: key(alt-cmd-shift-ctrl-j)
+window right: key(alt-cmd-shift-ctrl-l)
+window center: key(alt-cmd-shift-ctrl-k)
 windows: key(f6)
 windows <user.text>:
     key(f6)
@@ -140,6 +149,8 @@ word pub pascal: 'PubSub'
 word pub snake: 'pub_sub'
 word sinon: 'sinon'
 word (jay son | jason ): "json"
+word tv: 'tv4'
+word mtv: 'mtv'
 
 slap:
 	key(enter)
