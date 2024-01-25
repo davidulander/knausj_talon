@@ -70,6 +70,9 @@ def format_phrase_without_adding_to_history(word_list, formatters: str):
 def surround(by):
     return lambda i, word, last: (by if i == 0 else "") + word + (by if last else "")
 
+def pad_first(by):
+    return lambda i, word, last: (by if i == 0 else "") + word
+
 
 def words_with_joiner(joiner):
     """Pass through words unchanged, but add a separator between them."""
@@ -158,6 +161,7 @@ formatters_dict = {
     "DOUBLE_QUOTED_STRING": (SEP, surround('"')),
     "SINGLE_QUOTED_STRING": (SEP, surround("'")),
     "SPACE_SURROUNDED_STRING": (SEP, surround(" ")),
+    "SPACE_BEGINNING_STRING": (SEP, pad_first(" ")),
     "DOT_SEPARATED": words_with_joiner("."),
     "DOT_SNAKE": (NOSEP, lambda i, word, _: "." + word if i == 0 else "_" + word),
     "SLASH_SEPARATED": (NOSEP, every_word(lambda w: "/" + w)),
@@ -176,7 +180,7 @@ code_formatter_names = {
     "dotted": "DOT_SEPARATED",
     "dub string": "DOUBLE_QUOTED_STRING",
     "dunder": "DOUBLE_UNDERSCORE",
-    "hammer": "PUBLIC_CAMEL_CASE",
+    "pascal": "PUBLIC_CAMEL_CASE",
     "kebab": "DASH_SEPARATED",
     "packed": "DOUBLE_COLON_SEPARATED",
     "padded": "SPACE_SURROUNDED_STRING",
@@ -184,6 +188,7 @@ code_formatter_names = {
     "smash": "NO_SPACES",
     "snake": "SNAKE_CASE",
     "string": "SINGLE_QUOTED_STRING",
+    "more": "SPACE_BEGINNING_STRING",
 }
 prose_formatter_names = {
     "say": "NOOP",
