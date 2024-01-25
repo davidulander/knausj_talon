@@ -113,6 +113,7 @@ save file: edit.save()
 paste name: 'David Ulander'
 paste email: 'david.ulander@gmail.com'
 paste work email: 'david.ulander@tv4.se'
+paste end of day: 'eod'
 
 # various
 
