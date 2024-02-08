@@ -135,7 +135,7 @@ def every_word(word_func):
 # All formatters (code and prose)
 formatters_dict = {
     "NOOP": (SEP, lambda i, word, _: word),
-    "DOUBLE_UNDERSCORE": (NOSEP, first_vs_rest(lambda w: f"__{w}__")),
+    "DOUBLE_UNDERSCORE": (NOSEP, first_vs_rest(lambda w: f"{w.upper()}", lambda w: "_" + w.upper())),
     "PRIVATE_CAMEL_CASE": (
         NOSEP,
         first_vs_rest(lambda w: w.lower(), lambda w: w.capitalize()),
@@ -191,8 +191,8 @@ code_formatter_names = {
     "more": "SPACE_BEGINNING_STRING",
 }
 prose_formatter_names = {
-    "say": "NOOP",
-    "speak": "NOOP",
+    # "say": "NOOP",
+    # "speak": "NOOP",
     "sentence": "CAPITALIZE_FIRST_WORD",
     "title": "CAPITALIZE_ALL_WORDS",
 }
