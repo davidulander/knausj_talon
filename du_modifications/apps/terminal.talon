@@ -5,7 +5,7 @@ tag: user.terminal
 exit:
     key(ctrl-c)
     'exit'
-clear:
+clear this:
     key(ctrl-c)
     'clear'
     key(enter)
@@ -29,6 +29,7 @@ run install lib: 'pn install '
 run test: 'pn test \n'
 run test watch: 'pn test:watch\n'
 run build: 'pn build\n'
+run build api: 'pn build:specification\n'
 run deploy: 'pn deploy\n'
 run start: 'pn start\n'
 run lint: 'pn lint\n'

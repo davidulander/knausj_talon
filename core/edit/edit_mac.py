@@ -185,7 +185,7 @@ class EditActions:
         actions.key("alt-right")
 
     def zoom_in():
-        actions.key("cmd-=")
+        actions.key("cmd-+")
 
     def zoom_out():
         actions.key("cmd--")

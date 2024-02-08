@@ -76,6 +76,18 @@ window left: key(alt-cmd-shift-ctrl-j)
 window right: key(alt-cmd-shift-ctrl-l)
 window center: key(alt-cmd-shift-ctrl-k)
 windows: key(f6)
+focus clpl:
+    key(f6)
+    insert("clpl")
+    key(enter)
+focus infra:
+    key(f6)
+    insert("infra")
+    key(enter)
+focus talon:
+    key(f6)
+    insert("user")
+    key(enter)
 windows <user.text>:
     key(f6)
     insert(user.formatted_text(user.text, "ALL_LOWERCASE"))
@@ -152,6 +164,9 @@ word sinon: 'sinon'
 word (jay son | jason ): "json"
 word tv: 'tv4'
 word mtv: 'mtv'
+word prod common: 'prodcommon1'
+word dev: 'dev1'
+state score: '_'
 
 slap:
 	key(enter)

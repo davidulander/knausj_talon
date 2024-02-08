@@ -42,6 +42,7 @@ ex fold:
     key(ctrl-alt-c)
     user.move_mouse_absolute(200, 500)
 extensions: key(cmd-shift-x)
+get help: key(cmd-i)
 source controll:
     key(ctrl-shift-g)
     key(tab)
@@ -77,6 +78,7 @@ projects: key(alt-cmd-p)
 show references: key(cmd-shift-f12)
 (definition | def): key(f12)
 (references | ref): key(alt-shift-f12)
+rename this: key(f2)
 log this: key(alt-ctrl-l)
 
 # Navigating text
@@ -128,7 +130,7 @@ cast: key(cmd-shift-7)
 block comment: key(alt-shift-a)
 order imports: key(alt-shift-o)
 command: key(cmd-shift-p)
-show drop: key(ctrl-space)
+dropdown: key(ctrl-space)
 quickfix: key(cmd-.)
 keyboard shortcuts: key(cmd-k cmd-s)
 pin tab: key(a cmd-z)
@@ -155,15 +157,25 @@ focus left:
 reload window: user.vscode('Reload window')
 new window: user.vscode("workbench.action.newWindow")
 previous commit: user.vscode("previous revision")
+next commit: user.vscode("next revision")
+code checkout: user.vscode("checkout")
+code push: user.vscode("push")
 
 log variable:
     key(ctrl-alt-l)
 
 arrow: "=>"
+template string:
+    "`${}`"
+    key(left)
+    key(left)
 
 
-named function: user.snippet('n')
-named import: user.snippet('id')
+add named function: user.snippet('n')
+add named import: user.snippet('id')
+add for const:
+    '.f'
+    key(enter)
 state this: 'this.'
 
 state proccess: 'process.env.'

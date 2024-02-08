@@ -20,6 +20,12 @@ git clone: "git clone "
 git commit:
     "git commit -m ''"
     key(left)
+git commit pull:
+    "git commit -m 'Changes from PR feedback'"
+    key(left)
+git commit simple:
+    "git add -u; git commit -m 'WIP' \n"
+    key(left)
 git commit no veryfy:
         "git commit -m '' -n"
         key(left)
