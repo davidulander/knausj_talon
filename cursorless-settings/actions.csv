@@ -33,7 +33,7 @@ paste, pasteFromClipboard
 phones, nextHomophone
 post, setSelectionAfter
 pour, editNewLineAfter
-pre, setSelectionBefore
+before, setSelectionBefore
 puff, insertEmptyLinesAround
 quick fix, showQuickFix
 reference, showReferences
