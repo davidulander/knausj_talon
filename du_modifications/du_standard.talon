@@ -27,6 +27,8 @@ hip: user.mouse_smooth_scroll(600)
 hippy: user.mouse_smooth_scroll(300)
 skip: user.mouse_smooth_scroll(-600)
 skippy: user.mouse_smooth_scroll(-300)
+wheel up: user.mouse_smooth_scroll(600)
+wheel down: user.mouse_smooth_scroll(-600)
 skip right: mouse_scroll(0, -300)
 skip left:mouse_scroll(0, 300)
 mouse up <number>: user.move_mouse_relative('up', number)
@@ -62,11 +64,12 @@ go google: key(alt-c)
 go terraform: key(alt-t)
 go linear: key(alt-l)
 go amazon: key(alt-a)
-go docs: key(alt-d)
+go grafana: key(alt-d)
 go ai: key(alt-i)
 show keeper: key(alt-shift-k)
 paste password: key(alt-shift-p)
 paste username: key(alt-shift-u)
+show emojis: key(alt-e)
 
 # various
 (close | quit) application: key(cmd-q)
@@ -76,6 +79,7 @@ window left: key(alt-cmd-shift-ctrl-j)
 window right: key(alt-cmd-shift-ctrl-l)
 window center: key(alt-cmd-shift-ctrl-k)
 windows: key(f6)
+app find: key(alt-cmd-shift-ctrl-f)
 focus clpl:
     key(f6)
     insert("clpl")
@@ -167,6 +171,13 @@ word mtv: 'mtv'
 word prod common: 'prodcommon1'
 word dev: 'dev1'
 state score: '_'
+state repo: 'CLPL'
+state team: 'NBS'
+state pull title:
+    'feat(NBS-): '
+    key(left)
+    key(left)
+    key(left)
 
 slap:
 	key(enter)
@@ -178,3 +189,7 @@ slippy:
 	edit.line_start()
 	key(enter)
 	key(up)
+
+second brace: "}"
+second paren: ")"
+second square: "]"

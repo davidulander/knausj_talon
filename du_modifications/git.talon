@@ -20,7 +20,7 @@ git clone: "git clone "
 git commit:
     "git commit -m ''"
     key(left)
-git commit pull:
+git commit pull request:
     "git commit -m 'Changes from PR feedback'"
     key(left)
 git commit simple:
