@@ -105,10 +105,10 @@ take screenshot: key(cmd-shift-4)
 go interface: user.click_mouse_absolute(1500, 0)
 
 save file: edit.save()
-[go word] left:
+[go] left:
     edit.word_left()
 
-[go word] right:
+[go] right:
     edit.word_right()
 
 [go] lefty:
@@ -117,10 +117,10 @@ save file: edit.save()
 [go] righty:
     edit.right()
 
-[go] up:
+go up:
     edit.up()
 
-[go] down:
+go down:
     edit.down()
 
 

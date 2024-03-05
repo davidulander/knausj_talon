@@ -61,6 +61,9 @@ cd talon: 'cd /Users/daul/.talon/user'
 open talon log: 'code /Users/daul/.talon/talon.log \n'
 restart talon: 'restartTalonDragon\n'
 run code: 'code .\n'
+run again:
+    key('up')
+    key('enter')
 
 # Internal-it
 # cd intern: 'cd /Users/daul/Projects/intern-it/ \n'
