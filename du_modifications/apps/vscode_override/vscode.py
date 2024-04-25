@@ -27,7 +27,7 @@ class user_actions:
     def tab_final():
         if is_mac:
             actions.key("ctrl-0")
-        else: 
+        else:
             actions.key("alt-0")
 
 @mod.action_class
@@ -36,7 +36,22 @@ class Actions:
         """Select snippets"""
         actions.key("cmd-shift-r")
         sleep(0.1)
-        actions.insert(shortcut) 
+        actions.insert(shortcut)
         actions.key("enter")
+
+    def command_runner(command: str):
+        """Select command from command pallets"""
+        actions.key("cmd-shift-p")
+        actions.insert(command)
+        actions.key("enter")
+
+    def git_checkout(command: str):
+        """Select command from command pallets"""
+        actions.key("cmd-shift-p")
+        actions.insert(command)
+        actions.key("enter")
+        sleep(1)
+        actions.key("enter")
+
 
 

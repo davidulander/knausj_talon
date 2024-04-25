@@ -59,7 +59,7 @@ go projects: user.file_manager_open_directory('~/Projects')
 new app: key(cmd-space)
 clipboard: key(alt-o)
 go pull requests: key(alt-p)
-go github: key(alt-g)
+go grafana logs: key(alt-g)
 go google: key(alt-c)
 go terraform: key(alt-t)
 go linear: key(alt-l)
@@ -119,6 +119,8 @@ save file: edit.save()
 
 go up:
     edit.up()
+
+down: app.notify("please use the voice command 'go down' instead of 'down'")
 
 go down:
     edit.down()

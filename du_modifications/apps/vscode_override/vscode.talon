@@ -97,12 +97,13 @@ unstage all: key(ctrl-alt-cmd-i)
 commit stage: key(cmd-enter)
 discard file: key(ctrl-alt-cmd-y)
 discard all: key(ctrl-alt-cmd-h)
-git emoji: user.vscode('git emoji')
+git emoji: user.command_runner('git emoji')
 
 # terminal
 terminal:
     key(ctrl-å)
     user.move_mouse_absolute(900, 900)
+terminal here: key(ctrl-h)
 max terminal: key(ctrl-+)
 close terminal: key(cmd-shift-9)
 kill terminal: key(ctrl-k)
@@ -153,18 +154,23 @@ focus right:
     user.click_mouse_absolute(1300, 400)
 focus left:
     user.click_mouse_absolute(700, 400)
-(merge | join) editors: user.vscode('Join All Editor Group')
-reload window: user.vscode('Reload window')
-new window: user.vscode("workbench.action.newWindow")
-previous commit: user.vscode("previous revision")
-next commit: user.vscode("next revision")
-code checkout: user.vscode("checkout")
-code push: user.vscode("push")
+(merge | join) editors: user.command_runner('Join All Editor Group')
+reload window: user.command_runner('Reload window')
+new window: user.command_runner("workbench.action.newWindow")
+previous commit: key(alt-r)
+next commit: user.command_runner("next revision")
+code checkout new:
+    user.git_checkout("checkout")
+    key(enter)
+code checkout:
+    user.command_runner("checkout")
+
+code push: user.command_runner("push")
 
 log variable:
     key(ctrl-alt-l)
 
-arrow: "=>"
+state arrow: "=>"
 template string:
     "`${}`"
     key(left)
