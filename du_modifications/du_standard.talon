@@ -61,7 +61,7 @@ clipboard: key(alt-o)
 go pull requests: key(alt-p)
 go grafana logs: key(alt-g)
 go google: key(alt-c)
-go terraform: key(alt-t)
+go scalar: key(alt-s)
 go linear: key(alt-l)
 go amazon: key(alt-a)
 go grafana: key(alt-d)
@@ -87,6 +87,9 @@ focus clpl:
 focus infra:
     key(f6)
     insert("infra")
+focus recommendations:
+    key(f6)
+    insert("recommendations")
     key(enter)
 focus talon:
     key(f6)
@@ -101,7 +104,7 @@ lock (computer | screen):
     key(ctrl-cmd-q)
 break pulse: key(cmd-ctrl-alt-0)
 break activate: key(cmd-ctrl-alt-9)
-take screenshot: key(cmd-shift-4)
+take screenshot: key(cmd-shift-5)
 go interface: user.click_mouse_absolute(1500, 0)
 
 save file: edit.save()
