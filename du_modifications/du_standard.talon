@@ -57,7 +57,7 @@ go projects: user.file_manager_open_directory('~/Projects')
 
 # Raycasts
 new app: key(cmd-space)
-clipboard: key(alt-o)
+clipboard: key(cmd-j)
 go pull requests: key(alt-p)
 go grafana logs: key(alt-g)
 go google: key(alt-c)

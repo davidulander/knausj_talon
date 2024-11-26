@@ -46,6 +46,12 @@ run dev: 'pn run dev\n'
 run test mono: 'bazeltest '
 run test affected: 'pn run test-only-affected\n'
 
+# Make
+run make audit: 'make audit\n'
+run make test: 'make test\n'
+run make run: 'make run/api\n'
+run make port: 'make port-forward\n'
+
 run terraform synth: "/Users/davidulander/Projects/tv4/tv4-infrastructure/bin/terraform-synth.sh projects/"
 run login: "/Users/davidulander/Projects/tv4/tv4-infrastructure/bin/setup-credentials.sh \n"
 
