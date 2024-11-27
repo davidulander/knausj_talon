@@ -198,3 +198,5 @@ slippy:
 second brace: "}"
 second paren: ")"
 second square: "]"
+
+code projects: key(alt-r)

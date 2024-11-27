@@ -25,7 +25,7 @@ find all: key(cmd-shift-f)
 # A lot already in find_and_replace.talon
 
 # Clipboard
-clone it: key(alt-shift-d)
+clone line: key(alt-shift-d)
 cut line: key(end cmd-shift-left cmd-x backspace)
 copy line: key(end cmd-shift-left cmd-c)
 copy word: key(cmd-d cmd-c)
@@ -185,3 +185,7 @@ add for const:
 state this: 'this.'
 
 state proccess: 'process.env.'
+
+problem fix: key(alt-shift-j)
+problem explain: key(alt-shift-l)
+sidebar: key(cmd-shift-l)
