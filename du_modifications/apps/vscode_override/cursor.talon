@@ -72,7 +72,7 @@ find word:
     key('cmd-shift-f')
     key('enter')
     key(ctrl-cmd-alt-f)
-close other: key(cmd-alt-t)
+close other: key(ctrl-shift-t)
 manager: key(cmd-shift-m)
 projects: key(alt-cmd-p)
 show references: key(cmd-shift-f12)
